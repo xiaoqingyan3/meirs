@@ -1,2 +1,2 @@
 # 简单机器
-这是由RykenSlimeCustomizer插件进行编写的文件
+简单机器由RykenSlimeCustomizer插件写下的配置文件,主打一个为玩家减轻负担;顺带拓展新的玩法。
