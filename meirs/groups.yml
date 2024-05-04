@@ -1,0 +1,62 @@
+meirs_parent_group:
+  type: "nested"
+  item:
+    name: "&a简单机器-测试版"
+    material: IRON_BLOCK
+meirs_sub_group:
+  type: "sub"
+  parent: "meirs_parent_group"
+  item:
+    name: '{#C0392B>}原版生产机器{#F9EBEA<}'
+    material-type: skull_hash
+    material: 3d963be53bddc22bbcfba8f291942d2f672bd383e6e733b949e9ba708a7774c8
+    lore:
+      - "&a?"
+meirs_nianye_group:
+  type: "sub"
+  parent: "meirs_parent_group"
+  item:
+    name: "{#CD6155>}粘液生产机器{#641E16<}"
+    material-type: skull_hash
+    material: 5e42037739b0f2ba7e6f8a61d0f99d3524ac94ac34a232cef071c64213f54d6d
+    lore:
+      - "&a?"
+meirs_sub_jiqi:
+  type: "sub"
+  parent: "meirs_parent_group"
+  item:
+    name: "机器(普通)"
+    material-type: skull_hash
+    material: 68de28a62441c384a4832621255a19de8712d770635ef6f58444e6547ed00d88
+meirs_sub_duo_fang_kuai:
+  type: "sub"
+  parent: "meirs_parent_group"
+  item:
+    name: "多方块构造"
+    material-type: skull_hash
+    material: 68de28a62441c384a4832621255a19de8712d770635ef6f58444e6547ed00d88
+meirs_sub_dianrong:
+  type: "sub"
+  parent: "meirs_parent_group"
+  item:
+    name: "&e电容"
+    material_type: slimefun
+    material: ENERGIZED_CAPACITOR
+    lore:
+      - "&a?"
+meirs_sub_wuping:
+  type: "sub"
+  parent: "meirs_parent_group"
+  item:
+    name: "&a物品"
+    material: BOOK
+    lore:
+      - "&a?"
+meirs_sub_yasuo:
+  type: "sub"
+  parent: "meirs_parent_group"
+  item:
+    name: "&a压缩物品"
+    material: LADDER
+    lore:
+      - "&a?"

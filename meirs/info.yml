@@ -1,0 +1,8 @@
+id: meirs
+name: "测试附属"
+depends: []
+pluginDepends: []
+version: "1.0"
+description: "Meirs测试附属"
+authors: ["meirs"]
+repo: "SlimefunReloadingProject/rsc-meirs"

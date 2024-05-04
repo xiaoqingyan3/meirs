@@ -1,0 +1,28 @@
+MEIRS_CAPACITOR_JICHUDIANRONG:
+  item_group: meirs_sub_dianrong
+  item:
+    material_type: slimefun
+    material: ENERGIZED_CAPACITOR
+    name: "{#F8BBD0>}简易电容{#9FA8DA<}"
+    lore:
+      - "{#4b4b4b}>{#BBDEFB>}一个非常简单的储存电能容器{#F44336<}{#4b4b4b}<"
+      - ""
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#90CAF9>}200 {#FFFFCC<>}J 可储存{#9CCC65<}"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  capacity: 200
+  recipe:
+    1:
+      material: COBBLESTONE
+      amount: 1
+    3:
+      material: COBBLESTONE
+      amount: 1
+    5:
+      material: COBBLESTONE
+      amount: 1
+    7:
+      material: COBBLESTONE
+      amount: 1
+    9:
+      material: COBBLESTONE
+      amount: 1

@@ -1,0 +1,12 @@
+PUTONGGONGZUOTAI_RECIPE_TYPE:
+  material: "CRAFTING_TABLE"
+  name: "&b简单工作台(PUTONGGONGZUOTAI_RECIPE_TYPE)"
+  lore:
+    - "&7你没看错"
+    - "&7需要在&e简单工作台&7上合成"
+JIAN_YA_SUO_QI_TYPE:
+  material: "COBBLESTONE"
+  name: "&b简易压缩台(JIAN_YA_SUO_QI_TYPE)"
+  lore:
+    - "&7你没看错"
+    - "&7需要在&e简易压缩台&7上合成"

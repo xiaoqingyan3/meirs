@@ -1,0 +1,55 @@
+JIANDAN_GONGZUOTAI:
+  item_group: meirs_sub_jiqi
+  item:
+    name: "&b&l简单工作台"
+    material: "GOLD_ORE"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_MUTO
+    2:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_MUTO
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_MUTO
+    5:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+    6:
+      material_type: slimefun
+      material: MEIRS_ITEM_MUTO
+  capacity: 1000
+  input: [10,11,12,19,20,21,28,29,30]
+  output: [14,15,16,23,24,25,32,33,34]
+  energyPerCraft: 100
+  speed: 2
+  recipes:
+    example:
+      seconds: 10
+      input:
+        1:
+          material_type: mc
+          material: STONE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_MATERIAL_GENERATOR_1
+    example_2:
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: EXAMPLE_ITEM_2
+        #添加更多输入物品。。。
+      output:
+        1:
+          chance: 10
+          material_type: slimefun
+          material: EXAMPLE_MACHINE
+
