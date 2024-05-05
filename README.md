@@ -3,7 +3,7 @@
 
 高级自定义附属:https://github.com/SlimefunReloadingProject/RykenSlimeCustomizer
 
-#声明
+# 声明
 本配置文件是给大家使用和学习的，禁止利用本配置文件去宣扬负面、暴力信息。
 
 禁止倒卖、任何交易，修改本配置文件进行出售等行为。
