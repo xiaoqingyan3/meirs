@@ -1,0 +1,42 @@
+MEIRS_SOLAR_GENERATOR:
+  item_group: meirs_sub_tai_yang_neng_fa_dian
+  item:
+    name: "{#AF601A>}泥土发电机{#D68910<}"
+    material: 5ae6a911fa2b9f4cb2a365eca8d0b60ccd1b0e3ba4809d934537518309c1b4fc
+    lore:
+      - "{#AED6F1>}这玩意真能发电？{#ABEBC6<}"
+      - "{#EC7063>}欸,还真可以!{#A3E4D7<}"
+      - ""
+      - "{#DC7633>}泥土发电机{#F0B27A<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#F4F6F7>}白天: 5 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#85929E>}夜晚: 5 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#82E0AA>}储电量: 1000 J{#F4D03F<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#A9CCE3}发电机{#4b4b4b})"
+  capacity: 1000
+  dayEnergy: 5
+  nightEnergy: 5
+  lightLevel: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: DIRT
+      amount: 1
+    2:
+      material: DIRT
+      amount: 1
+    3:
+      material: DIRT
+      amount: 1
+    5:
+      material: DIRT
+      amount: 1
+    7:
+      material: DIRT
+      amount: 1
+    8:
+      material: DIRT
+      amount: 1
+    9:
+      material: DIRT
+      amount: 1

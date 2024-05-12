@@ -1,8 +1,17 @@
-JIANDAN_GONGZUOTAI:
+#----------------------------------简单压缩机列表(初级)------------------------------------ #
+JIANDAN_YA_SUO_QI:
   item_group: meirs_sub_jiqi
   item:
-    name: "&b&l简单工作台"
-    material: "GOLD_ORE"
+    name: "{#85C1E9>}压缩机{#7FB3D5<}"
+    lore:
+      - "{#4b4b4b}>{#82E0AA>}把物品进行压缩{#AED6F1<}{#4b4b4b}<"
+      - ""
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}10{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}速度: 1x{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#A9CCE3}机器{#4b4b4b})"
+    material: "PISTON"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -16,6 +25,271 @@ JIANDAN_GONGZUOTAI:
       material: MEIRS_ITEM_MUTO
     4:
       material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+    6:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+  capacity: 10
+  input: [ 0,1,2,3,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 ]
+  output: [ 36,37,38,39,41,42,43,44,45,46,47,48,50,51,52,53]
+  energyPerCraft: 1
+  speed: 1
+  recipes:
+    1重压缩圆石:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_1
+    2重压缩圆石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_2
+          amount: 1
+    3重压缩圆石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_2
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_3
+          amount: 1
+    4重压缩圆石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_4
+          amount: 1
+    5重压缩圆石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_5
+          amount: 1
+    6重压缩圆石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_6
+          amount: 1
+    7重压缩圆石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_7
+          amount: 1
+    8重压缩圆石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_8
+          amount: 1
+    9重压缩圆石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_YUANSHI_9
+          amount: 1
+    1重压缩煤炭:
+      seconds: 1
+      input:
+        1:
+          material: COAL
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_1
+    2重压缩煤炭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_2
+          amount: 1
+    3重压缩煤炭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_2
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_3
+          amount: 1
+    4重压缩煤炭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_4
+          amount: 1
+    5重压缩煤炭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_5
+          amount: 1
+    6重压缩煤炭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_6
+          amount: 1
+    7重压缩煤炭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_7
+          amount: 1
+    8重压缩煤炭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_8
+          amount: 1
+    9重压缩煤炭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_MEITAN_9
+          amount: 1
+#----------------------------------简单工作台列表(初级)------------------------------------ #
+JIANDAN_GONGZUOTAI:
+  item_group: meirs_sub_jiqi
+  item:
+    name: "{#EF5350>}简单工作台{#EC407A<}"
+    lore:
+      - "{#4b4b4b}>{#F48FB1>}制作本附属相关的物品{#9575CD<}{#4b4b4b}<"
+      - ""
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}100{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}速度: 10x{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 10{#FF0000<} {#FFFFCC}J"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#A9CCE3}机器{#4b4b4b})"
+    material: "CRAFTING_TABLE"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_MUTO
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_MUTO
+    4:
+      material_type: slimefun
       material: MEIRS_ITEM_MUTO
     5:
       material_type: slimefun
@@ -23,33 +297,73 @@ JIANDAN_GONGZUOTAI:
     6:
       material_type: slimefun
       material: MEIRS_ITEM_MUTO
-  capacity: 1000
+  capacity: 100
   input: [10,11,12,19,20,21,28,29,30]
   output: [14,15,16,23,24,25,32,33,34]
-  energyPerCraft: 100
-  speed: 2
+  energyPerCraft: 10
+  speed: 10
   recipes:
-    example:
+    圆石生产机I:
       seconds: 10
       input:
         1:
-          material_type: mc
-          material: STONE
+          material: COBBLESTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+          amount: 1
+        3:
+          material: COBBLESTONE
+          amount: 1
+        4:
+          material_type: slimefun
+          material: MEIRS_SHENG_CHAN_MOKUAI_1
+          amount: 1
+        5:
+          material_type: slimefun
+          material: MEIRS_ITEM_KUANG_JIA_1
+          amount: 1
+        6:
+          material_type: slimefun
+          material: MEIRS_SHENG_CHAN_MOKUAI_1
+          amount: 1
+        7:
+          material: COBBLESTONE
+          amount: 1
+        8:
+          material_type: slimefun
+          material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+          amount: 1
+        9:
+          material: COBBLESTONE
           amount: 1
       output:
         1:
           material_type: slimefun
           material: MEIRS_MATERIAL_GENERATOR_1
-    example_2:
-      seconds: 5
+    2:
+      seconds: 10
       input:
         1:
           material_type: slimefun
-          material: EXAMPLE_ITEM_2
-        #添加更多输入物品。。。
+          material: MEIRS_ITEM_MUTO
+        2:
+          material_type: slimefun
+          material: MEIRS_SHENG_CHAN_MOKUAI_1
+        3:
+          material_type: slimefun
+          material: MEIRS_ITEM_MUTO
+        4:
+          material_type: slimefun
+          material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+        5:
+          material_type: slimefun
+          material: MEIRS_ITEM_KUANG_JIA_1
+        6:
+          material_type: slimefun
+          material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
       output:
         1:
-          chance: 10
           material_type: slimefun
-          material: EXAMPLE_MACHINE
-
+          material: JIANDAN_YA_SUO_QI

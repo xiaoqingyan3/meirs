@@ -1,19 +1,23 @@
 #--------------------------------------------------------------------------原版矿物生产机器 I-IX ------------------------------------------------------------------------------------#
+
+#--------------------------------------------------------------------------圆石矿物生产机器 I-IX ------------------------------------------------------------------------------------#
 MEIRS_MATERIAL_GENERATOR_1:
   item_group: meirs_sub_group
   item:
-    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#F3E5F5}I"
     lore:
       - "{#4b4b4b}>{#acacff>}可以生产圆石的一种机器{#7a3cfe<}{#4b4b4b}<"
       - "{#4b4b4b}>{#CE93D8>}制造简单,非常适合萌新制造.{#66BB6A<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}圆石生产器{#CCFFFF<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 1{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: STONE
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material: COBBLESTONE
@@ -48,28 +52,29 @@ MEIRS_MATERIAL_GENERATOR_1:
       material: COBBLESTONE
       amount: 1
   capacity: 400
-  output: [12,13,14,15]
+  output: [11,12,13,14,15]
   outputItem:
       material: COBBLESTONE
-      amount: 1
+      amount: 4
   tickRate: 10
   status: 4
   per: 1
 MEIRS_MATERIAL_GENERATOR_2:
   item_group: meirs_sub_group
   item:
-    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#00FF99}II"
+    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#E1BEE7}II"
     lore:
       - "{#4b4b4b}>{#acacff>}可以生产圆石的一种机器{#7a3cfe<}{#4b4b4b}<"
-      - "{#4b4b4b}>{#CE93D8>}制造简单,非常适合萌新制造.{#66BB6A<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}圆石生产器{#CCFFFF<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 20 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 8{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 2 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: STONE
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material_type: slimefun
@@ -107,30 +112,462 @@ MEIRS_MATERIAL_GENERATOR_2:
       material_type: slimefun
       material: MEIRS_ITEM_YASUO_YUANSHI_1
       amount: 1
-  capacity: 600
-  output: [12,13,14,15]
+  capacity: 400
+  output: [10,11,12,13,14,15,16]
   outputItem:
     material: COBBLESTONE
-    amount: 4
-  tickRate: 20
+    amount: 8
+  tickRate: 10
   status: 4
   per: 2
-MEIRS_MEITAN_SHENGCHANQI:
+MEIRS_MATERIAL_GENERATOR_3:
   item_group: meirs_sub_group
   item:
-    name: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#CE93D8}III"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产圆石的一种机器{#7a3cfe<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}圆石生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 12{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 9 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 3 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: STONE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MATERIAL_GENERATOR_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_2
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_2
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17]
+  outputItem:
+    material: COBBLESTONE
+    amount: 12
+  tickRate: 9
+  status: 4
+  per: 3
+MEIRS_MATERIAL_GENERATOR_4:
+  item_group: meirs_sub_group
+  item:
+    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#BA68C8}IV"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产圆石的一种机器{#7a3cfe<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}圆石生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 16{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 7 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 4 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: STONE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MATERIAL_GENERATOR_3
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_2
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_3
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_2
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_3
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,21,22,23]
+  outputItem:
+    material: COBBLESTONE
+    amount: 16
+  tickRate: 7
+  status: 4
+  per: 4
+MEIRS_MATERIAL_GENERATOR_5:
+  item_group: meirs_sub_group
+  item:
+    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#AB47BC}V"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产圆石的一种机器{#7a3cfe<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}圆石生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 24{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 5 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 9 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: STONE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MATERIAL_GENERATOR_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_4
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_2
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_4
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_2
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_4
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]
+  outputItem:
+    material: COBBLESTONE
+    amount: 24
+  tickRate: 5
+  status: 4
+  per: 9
+MEIRS_MATERIAL_GENERATOR_6:
+  item_group: meirs_sub_group
+  item:
+    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#9C27B0}VI"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产圆石的一种机器{#7a3cfe<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}圆石生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 32{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 4 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 10 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: STONE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MATERIAL_GENERATOR_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_5
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_5
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_5
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,30,31,32]
+  outputItem:
+    material: COBBLESTONE
+    amount: 32
+  tickRate: 4
+  status: 4
+  per: 10
+MEIRS_MATERIAL_GENERATOR_7:
+  item_group: meirs_sub_group
+  item:
+    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#8E24AA}VII"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产圆石的一种机器{#7a3cfe<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}圆石生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 48{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 3 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 15 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: STONE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MATERIAL_GENERATOR_6
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_6
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_6
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_6
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,39,40,41]
+  outputItem:
+    material: COBBLESTONE
+    amount: 32
+  tickRate: 3
+  status: 4
+  per: 15
+MEIRS_MATERIAL_GENERATOR_8:
+  item_group: meirs_sub_group
+  item:
+    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#7B1FA2}VIII"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产圆石的一种机器{#7a3cfe<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}圆石生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 64{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 2 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 20 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: STONE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MATERIAL_GENERATOR_7
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_7
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_7
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_7
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,48,49,50]
+  outputItem:
+    material: COBBLESTONE
+    amount: 64
+  tickRate: 2
+  status: 4
+  per: 20
+MEIRS_MATERIAL_GENERATOR_9:
+  item_group: meirs_sub_group
+  item:
+    name: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#6A1B9A}IX"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产圆石的一种机器{#7a3cfe<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#acacff>}制造比较困难{#7a3cfe<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}圆石生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 64{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 1 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 25 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: STONE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_9
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MATERIAL_GENERATOR_8
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_9
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_4
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_4
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_4
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_9
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_4
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_YUANSHI_9
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52]
+  outputItem:
+    material: COBBLESTONE
+    amount: 64
+  tickRate: 1
+  status: 4
+  per: 25
+
+#--------------------------------------------------------------------------煤炭矿物生产机器 I-IX ------------------------------------------------------------------------------------#
+MEIRS_MEITAN_SHENGCHANQI_1:
+  item_group: meirs_sub_group
+  item:
+    name: "{#5D6D7E}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
     lore:
       - "{#4b4b4b}>{#acacff>}可以生产煤炭的机器{#7a3cfe<}{#4b4b4b}<"
       - "{#4b4b4b}>{#6600FF>}制造非常简单，极具性价比的机器.{#00FFFF<}{#4b4b4b}<"
       - "{#4b4b4b}>{#CE93D8>}适合萌新制造.{#66BB6A<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}煤炭生产器{#CCFFFF<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}400{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#EC7063>}产量:{#CB4335<} {#00FF33}1"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: COAL_BLOCK
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material: COAL
@@ -165,13 +602,513 @@ MEIRS_MEITAN_SHENGCHANQI:
       material: COAL
       amount: 1
   capacity: 400
-  output: [12,13,14,15]
+  output: [11,12,13,14,15]
   outputItem:
     material: COAL
-    amount: 1
+    amount: 4
   tickRate: 10
   status: 4
   per: 1
+MEIRS_MEITAN_SHENGCHANQI_2:
+  item_group: meirs_sub_group
+  item:
+    name: "{#5D6D7E}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}II"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产煤炭的机器{#7a3cfe<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#6600FF>}制造简单的机器.{#00FFFF<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#CE93D8>}适合萌新制造.{#66BB6A<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}煤炭生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 8{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 3 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: COAL_BLOCK
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MEITAN_SHENGCHANQI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_1
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_1
+      amount: 1
+  capacity: 400
+  output: [10,11,12,13,14,15,16]
+  outputItem:
+    material: COAL
+    amount: 8
+  tickRate: 10
+  status: 4
+  per: 3
+MEIRS_MEITAN_SHENGCHANQI_3:
+  item_group: meirs_sub_group
+  item:
+    name: "{#5D6D7E}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}III"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产煤炭的机器{#7a3cfe<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#6600FF>}制造简单的机器.{#00FFFF<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#CE93D8>}适合萌新制造.{#66BB6A<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}煤炭生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 12{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 9 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 5 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: COAL_BLOCK
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MEITAN_SHENGCHANQI_2
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_2
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_2
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17]
+  outputItem:
+    material: COAL
+    amount: 12
+  tickRate: 9
+  status: 4
+  per: 5
+MEIRS_MEITAN_SHENGCHANQI_4:
+  item_group: meirs_sub_group
+  item:
+    name: "{#5D6D7E}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}IV"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产煤炭的机器{#7a3cfe<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#6600FF>}制造简单的机器.{#00FFFF<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}煤炭生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 16{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 7 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 7 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: COAL_BLOCK
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MEITAN_SHENGCHANQI_3
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_2
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_3
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_2
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_3
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,21,22,23]
+  outputItem:
+    material: COAL
+    amount: 16
+  tickRate: 7
+  status: 4
+  per: 7
+MEIRS_MEITAN_SHENGCHANQI_5:
+  item_group: meirs_sub_group
+  item:
+    name: "{#5D6D7E}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}V"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产煤炭的机器{#7a3cfe<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#6600FF>}制造有些难度的机器.{#00FFFF<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}煤炭生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 24{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 5 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 12 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: COAL_BLOCK
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MEITAN_SHENGCHANQI_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_4
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_2
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_4
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_2
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_4
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]
+  outputItem:
+    material: COAL
+    amount: 24
+  tickRate: 5
+  status: 4
+  per: 12
+MEIRS_MEITAN_SHENGCHANQI_6:
+  item_group: meirs_sub_group
+  item:
+    name: "{#5D6D7E}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}VI"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产煤炭的机器{#7a3cfe<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#6600FF>}制造简单的机器.{#00FFFF<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#CE93D8>}适合萌新制造.{#66BB6A<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}煤炭生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 32{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 4 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 15 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: COAL_BLOCK
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MEITAN_SHENGCHANQI_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_5
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_5
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_5
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,30,31,32]
+  outputItem:
+    material: COAL
+    amount: 32
+  tickRate: 4
+  status: 4
+  per: 15
+MEIRS_MEITAN_SHENGCHANQI_7:
+  item_group: meirs_sub_group
+  item:
+    name: "{#5D6D7E}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}VII"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产煤炭的机器{#7a3cfe<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#6600FF>}制造有些难度的机器.{#00FFFF<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}煤炭生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 48{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 3 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 17 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: COAL_BLOCK
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MEITAN_SHENGCHANQI_6
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_6
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_6
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_6
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,39,40,41]
+  outputItem:
+    material: COAL
+    amount: 48
+  tickRate: 3
+  status: 4
+  per: 17
+MEIRS_MEITAN_SHENGCHANQI_8:
+  item_group: meirs_sub_group
+  item:
+    name: "{#5D6D7E}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}VIII"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产煤炭的机器{#7a3cfe<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}煤炭生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 64{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 2 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 25 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: COAL_BLOCK
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MEITAN_SHENGCHANQI_7
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_7
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_7
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_7
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,48,49,50]
+  outputItem:
+    material: COAL
+    amount: 64
+  tickRate: 2
+  status: 4
+  per: 25
+MEIRS_MEITAN_SHENGCHANQI_9:
+  item_group: meirs_sub_group
+  item:
+    name: "{#5D6D7E}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}IX"
+    lore:
+      - "{#4b4b4b}>{#acacff>}可以生产煤炭的机器{#7a3cfe<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#6600FF>}制造比较困难.{#00FFFF<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}煤炭生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 64{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 1 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 25 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
+    material: COAL_BLOCK
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_9
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_MEITAN_SHENGCHANQI_8
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_9
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_4
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_4
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_4
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_9
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_4
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_9
+      amount: 1
+  capacity: 400
+  output: [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52]
+  outputItem:
+    material: COAL
+    amount: 64
+  tickRate: 1
+  status: 4
+  per: 25
+
+#--------------------------------------------------------------------------青金石矿物生产机器 I-IX ------------------------------------------------------------------------------------#
 MEIRS_QINGJINSHI_SHENGCHANQI:
   item_group: meirs_sub_group
   item:
@@ -181,12 +1118,14 @@ MEIRS_QINGJINSHI_SHENGCHANQI:
       - "{#4b4b4b}>{#EF9A9A>}制造简单,需要可制造{#9FA8DA<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}青金石生产器{#CCFFFF<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}400{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#EC7063>}产量:{#CB4335<} {#00FF33}1"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 5 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: LAPIS_BLOCK
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material: LAPIS_LAZULI
@@ -221,11 +1160,11 @@ MEIRS_QINGJINSHI_SHENGCHANQI:
       material: LAPIS_LAZULI
       amount: 1
   capacity: 400
-  output: [12,13,14,15]
+  output: [11,12,13,14,15]
   outputItem:
     material: LAPIS_LAZULI
-    amount: 1
-  tickRate: 10
+    amount: 4
+  tickRate: 5
   status: 4
   per: 1
 MEIRS_XIAJIESHIYING_SHENGCHANQI:
@@ -237,12 +1176,14 @@ MEIRS_XIAJIESHIYING_SHENGCHANQI:
       - "{#4b4b4b}>{#BBDEFB>}制造简单,需要可制造{#DCEDC8<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}下界石英生产器{#CCFFFF<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}400{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#EC7063>}产量:{#CB4335<} {#00FF33}1"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 5 秒{#CC0033<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: QUARTZ_BLOCK
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material: QUARTZ
@@ -277,11 +1218,11 @@ MEIRS_XIAJIESHIYING_SHENGCHANQI:
       material: QUARTZ
       amount: 1
   capacity: 400
-  output: [12,13,14,15]
+  output: [11,12,13,14,15]
   outputItem:
     material: QUARTZ
-    amount: 1
-  tickRate: 5
+    amount: 4
+  tickRate: 10
   status: 4
   per: 1
 MEIRS_ZISHUIJING_SHENGCHANQI:
@@ -294,12 +1235,14 @@ MEIRS_ZISHUIJING_SHENGCHANQI:
       - "{#4b4b4b}>>{#CE93D8>}需要可制造{#66BB6A<}{#4b4b4b}<<"
       - ""
       - "{#CC99FF>}紫水晶生产器{#CCFFFF<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}400{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#EC7063>}产量:{#CB4335<} {#00FF33}1"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 5 秒{#CC0033<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: AMETHYST_BLOCK
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material: AMETHYST_SHARD
@@ -334,11 +1277,11 @@ MEIRS_ZISHUIJING_SHENGCHANQI:
       material: AMETHYST_SHARD
       amount: 1
   capacity: 400
-  output: [12,13,14,15]
+  output: [11,12,13,14,15]
   outputItem:
     material: AMETHYST_SHARD
-    amount: 1
-  tickRate: 5
+    amount: 4
+  tickRate: 10
   status: 4
   per: 1
 MEIRS_TONGDING_SHENGCANJIQI:
@@ -350,12 +1293,14 @@ MEIRS_TONGDING_SHENGCANJIQI:
       - "{#4b4b4b}>{#3498DB>}制造简单,需要可制造{#E67E22<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}铜锭生产器{#CCFFFF<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}400{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#EC7063>}产量:{#CB4335<} {#00FF33}1"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: COPPER_ORE
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material: COPPER_INGOT
@@ -393,8 +1338,8 @@ MEIRS_TONGDING_SHENGCANJIQI:
   output: [ 12,13,14,15 ]
   outputItem:
     material: COPPER_INGOT
-    amount: 1
-  tickRate: 5
+    amount: 4
+  tickRate: 10
   status: 4
   per: 1
 MEIRS_TIEKUANG_SHENGCANJIQI:
@@ -406,12 +1351,14 @@ MEIRS_TIEKUANG_SHENGCANJIQI:
       - "{#4b4b4b}>{#F9E79F>}制造简单,需要可制造{#EDBB99<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}铁锭生产器{#CCFFFF<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}400{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#EC7063>}产量:{#CB4335<} {#00FF33}1"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: IRON_ORE
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material: IRON_INGOT
@@ -446,10 +1393,10 @@ MEIRS_TIEKUANG_SHENGCANJIQI:
       material: IRON_INGOT
       amount: 1
   capacity: 400
-  output: [12,13,14,15]
+  output: [11,12,13,14,15]
   outputItem:
     material: IRON_INGOT
-    amount: 1
+    amount: 4
   tickRate: 10
   status: 4
   per: 1
@@ -462,12 +1409,14 @@ MEIRS_JINDING_SHENGCANJIQI:
       - "{#4b4b4b}>{#85C1E9>}制造简单,需要可制造{#F7DC6F<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}金锭生产器{#CCFFFF<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}400{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#EC7063>}产量:{#CB4335<} {#00FF33}1"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: GOLD_ORE
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material: GOLD_INGOT
@@ -502,10 +1451,10 @@ MEIRS_JINDING_SHENGCANJIQI:
       material: GOLD_INGOT
       amount: 1
   capacity: 400
-  output: [12,13,14,15]
+  output: [11,12,13,14,15]
   outputItem:
     material: GOLD_INGOT
-    amount: 1
+    amount: 4
   tickRate: 10
   status: 4
   per: 1
@@ -519,12 +1468,14 @@ MEIRS_ZUANSHIKUANG_SHENGCANJIQI:
       - "{#4b4b4b}>{#CE93D8>}萌新需要多多努力哦！{#66BB6A<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}钻石生产器{#CCFFFF<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}400{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#EC7063>}产量:{#CB4335<} {#00FF33}1"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: DIAMOND_ORE
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material: DIAMOND
@@ -559,28 +1510,30 @@ MEIRS_ZUANSHIKUANG_SHENGCANJIQI:
       material: DIAMOND
       amount: 1
   capacity: 400
-  output: [12,13,14,15]
+  output: [11,12,13,14,15]
   outputItem:
     material: DIAMOND
-    amount: 1
+    amount: 4
   tickRate: 10
   status: 4
   per: 1
 MEIRS_XIAJIEHEJINDING_SHENGCANJIQI:
   item_group: meirs_sub_group
   item:
-    name: "{#17202A>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+    name: "{#616A6B>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
     lore:
       - "{#4b4b4b}>{#82E0AA>}可以生产下界合金锭的机器{#212F3C<}{#4b4b4b}<"
       - "{#4b4b4b}>{#5DADE2>}制造较难,需要可制造{#58D68D<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}下界合金锭生产器{#CCFFFF<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}400{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#EC7063>}产量:{#CB4335<} {#00FF33}1"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 20 秒{#CC0033<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C0392B>}原版矿物生产机器{#F9EBEA<}{#4b4b4b})"
     material: NETHERITE_BLOCK
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material: NETHERITE_INGOT
@@ -615,31 +1568,90 @@ MEIRS_XIAJIEHEJINDING_SHENGCANJIQI:
       material: NETHERITE_INGOT
       amount: 1
   capacity: 400
-  output: [12,13,14,15]
+  output: [11,12,13,14,15]
   outputItem:
     material: NETHERITE_INGOT
-    amount: 1
+    amount: 4
   tickRate: 20
   status: 4
   per: 1
-#--------------------------------------------------------------------------原版矿物生产机器 I-IX ------------------------------------------------------------------------------------#
-
-#--------------------------------------------------------------------------粘液矿物生产机器---------------------------------------------------------------------------------------#
+#--------------------------------------------------------------------------原版橡木生产机器 I-IX ------------------------------------------------------------------------------------#
+MEIRS_MUTO_SHENGCANJIQI_1:
+  item_group: meirs_sub_muto
+  item:
+    name: "{#BCAAA4}橡木{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+    lore:
+      - "{#4b4b4b}>{#BCAAA4>}可以生产木头的机器{#FFAB91<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#5DADE2>}制造简单,需要可制造{#58D68D<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}橡木生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 5 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#C5E1A5>}原版木头生产机器{#FFE0B2<}{#4b4b4b})"
+    material: OAK_LOG
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: OAK_LOG
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    3:
+      material: OAK_LOG
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material: OAK_LOG
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material: OAK_LOG
+      amount: 1
+  capacity: 400
+  output: [11,12,13,14,15]
+  outputItem:
+    material: OAK_LOG
+    amount: 4
+  tickRate: 5
+  status: 4
+  per: 1
+#--------------------------------------------------------------------------铁粉生产机器I-IX---------------------------------------------------------------------------------------#
 MEIRS_TIEKUANGFEN_SHENGCANJIQI:
   item_group: meirs_nianye_group
   item:
-    name: "{#EDBB99}铁粉{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+    name: "{#EDBB99}铁粉{#3498DB>}生产器{#85C1E9<} {#FFECB3}I"
     lore:
       - "{#4b4b4b}>{#EDBB99>}可以生产铁粉的机器{#F9E79F<}{#4b4b4b}<"
       - "{#4b4b4b}>{#EDBB99>}制造非常简单,需要可制造.{#F9E79F<}{#4b4b4b}<"
       - ""
       - "{#CC99FF>}铁粉生产器{#CCFFFF<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}400{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#EC7063>}产量:{#CB4335<} {#00FF33}1"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 5 秒{#CC0033<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CD6155>}粘液生产机器{#641E16<}{#4b4b4b})"
     material: 3bf5c508ec46064e0087816cf63b7e708b2905c9bac4c3b05f436ff1c6dd3758
-  recipe_type: PUTONGGONGZUOTAI_RECIPE_TYPE
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material_type: slimefun
@@ -678,12 +1690,516 @@ MEIRS_TIEKUANGFEN_SHENGCANJIQI:
       material: IRON_DUST
       amount: 1
   capacity: 400
-  output: [12,13,14,15]
+  output: [11,12,13,14,15]
   outputItem:
     material_type: slimefun
     material: IRON_DUST
-    amount: 1
+    amount: 4
+  tickRate: 10
+  status: 4
+  per: 1
+MEIRS_JINFEN_SHENGCANJIQI_1:
+  item_group: meirs_nianye_group
+  item:
+    name: "{#F7DC6F>}金粉{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#FFFF99}I"
+    lore:
+      - "{#4b4b4b}>{#F7DC6F>}可以生产金粉的机器{#85C1E9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F7DC6F>}制造简单,需要可制造.{#85C1E9<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}金粉生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CD6155>}粘液生产机器{#641E16<}{#4b4b4b})"
+    material: cbd41896d5d8a2994a0fc6e851f207d81ddefb7e1104e470e4b6e92765b39dbf
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+  capacity: 400
+  output: [11,12,13,14,15]
+  outputItem:
+    material_type: slimefun
+    material: GOLD_DUST
+    amount: 4
+  tickRate: 10
+  status: 4
+  per: 1
+MEIRS_TONGFEN_SHENGCANJIQI_1:
+  item_group: meirs_nianye_group
+  item:
+    name: "{#EB984E>}铜粉{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#FFE0B2}I"
+    lore:
+      - "{#4b4b4b}>{#E67E22>}可以生产铜粉的机器{#3498DB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#E67E22>}制造简单,需要可制造.{#3498DB<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}铜粉生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 5 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CD6155>}粘液生产机器{#641E16<}{#4b4b4b})"
+    material: 95410d050133ff7e4e2f8c23d2ce386c75f52fa7fe7ca8520573b97230a7f3c7
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: COPPER_DUST
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: COPPER_DUST
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COPPER_DUST
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COPPER_DUST
+      amount: 1
+  capacity: 400
+  output: [11,12,13,14,15]
+  outputItem:
+    material_type: slimefun
+    material: COPPER_DUST
+    amount: 4
   tickRate: 5
+  status: 4
+  per: 1
+MEIRS_XIFEN_SHENGCANJIQI_1:
+  item_group: meirs_nianye_group
+  item:
+    name: "{#2E86C1}锡粉{#3498DB>}生产器{#85C1E9<} {#FFFF99}I"
+    lore:
+      - "{#4b4b4b}>{#AED6F1>}可以生产锡粉的机器{#2E86C1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#AED6F1>}制造简单,需要可制造.{#2E86C1<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}锡粉生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CD6155>}粘液生产机器{#641E16<}{#4b4b4b})"
+    material: c727e87eab5b3edacf8942626caa73a665df7dd9c1301f8a24ce38f79601520e
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: TIN_DUST
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: TIN_DUST
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: TIN_DUST
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: TIN_DUST
+      amount: 1
+  capacity: 400
+  output: [11,12,13,14,15]
+  outputItem:
+    material_type: slimefun
+    material: TIN_DUST
+    amount: 4
+  tickRate: 10
+  status: 4
+  per: 1
+MEIRS_YINGFEN_SHENGCANJIQI_1:
+  item_group: meirs_nianye_group
+  item:
+    name: "{#D0D3D4}银粉{#3498DB>}生产器{#85C1E9<} {#FFFF99}I"
+    lore:
+      - "{#4b4b4b}>{#D0D3D4>}可以生产银粉的机器{#F4F6F7<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F4F6F7>}制造简单,需要可制造.{#D0D3D4<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}银粉生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CD6155>}粘液生产机器{#641E16<}{#4b4b4b})"
+    material: 984f9e0052bacae2f42a12db529fef8d4ae93a7badd724d7aecd5c61329f2c8b
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SILVER_DUST
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SILVER_DUST
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SILVER_DUST
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SILVER_DUST
+      amount: 1
+  capacity: 400
+  output: [11,12,13,14,15]
+  outputItem:
+    material_type: slimefun
+    material: SILVER_DUST
+    amount: 4
+  tickRate: 10
+  status: 4
+  per: 1
+MEIRS_QIANFEN_SHENGCANJIQI_1:
+  item_group: meirs_nianye_group
+  item:
+    name: "{#8E24AA}铅粉{#3498DB>}生产器{#85C1E9<} {#FFFF99}I"
+    lore:
+      - "{#4b4b4b}>{#F48FB1>}可以生产铅粉的机器{#8E24AA<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F48FB1>}制造简单,需要可制造.{#8E24AA<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}铅粉生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CD6155>}粘液生产机器{#641E16<}{#4b4b4b})"
+    material: 790e42e0c4df59ad00b135b6b7bbceab10a85eeb9b6efd83b184244c96830b3d
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: LEAD_DUST
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: LEAD_DUST
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: LEAD_DUST
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: LEAD_DUST
+      amount: 1
+  capacity: 400
+  output: [11,12,13,14,15]
+  outputItem:
+    material_type: slimefun
+    material: LEAD_DUST
+    amount: 4
+  tickRate: 10
+  status: 4
+  per: 1
+MEIRS_LVFEN_SHENGCANJIQI_1:
+  item_group: meirs_nianye_group
+  item:
+    name: "{#B39DDB}铝粉{#3498DB>}生产器{#85C1E9<} {#FFFF99}I"
+    lore:
+      - "{#4b4b4b}>{#B39DDB>}可以生产铝粉的机器{#7986CB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#B39DDB>}制造简单,需要可制造.{#7986CB<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}铝粉生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CD6155>}粘液生产机器{#641E16<}{#4b4b4b})"
+    material: 7c4683ae5a9087a537446ffe58fa5f5a722959da7c80cb2b8aba4bba629ed37e
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ALUMINUM_DUST
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ALUMINUM_DUST
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ALUMINUM_DUST
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ALUMINUM_DUST
+      amount: 1
+  capacity: 400
+  output: [11,12,13,14,15]
+  outputItem:
+    material_type: slimefun
+    material: ALUMINUM_DUST
+    amount: 4
+  tickRate: 10
+  status: 4
+  per: 1
+MEIRS_XINFEN_SHENGCANJIQI_1:
+  item_group: meirs_nianye_group
+  item:
+    name: "{#E0E0E0}锌粉{#3498DB>}生产器{#85C1E9<} {#FFFF99}I"
+    lore:
+      - "{#4b4b4b}>{#B2EBF2>}可以生产锌粉的机器{#81D4FA<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#B2EBF2>}制造简单,需要可制造.{#81D4FA<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}锌粉生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CD6155>}粘液生产机器{#641E16<}{#4b4b4b})"
+    material: 124af0b6d5390b89030b36e53145535a8c6046babeeb212c5d811dc5bc04b780
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ZINC_DUST
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ZINC_DUST
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ZINC_DUST
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ZINC_DUST
+      amount: 1
+  capacity: 400
+  output: [11,12,13,14,15]
+  outputItem:
+    material_type: slimefun
+    material: ZINC_DUST
+    amount: 4
+  tickRate: 10
+  status: 4
+  per: 1
+MEIRS_MEIFEN_SHENGCANJIQI_1:
+  item_group: meirs_nianye_group
+  item:
+    name: "{#F8BBD0}镁粉{#3498DB>}生产器{#85C1E9<} {#FFFF99}I"
+    lore:
+      - "{#4b4b4b}>{#F8BBD0>}可以生产镁粉的机器{#90CAF9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F8BBD0>}制造简单,需要可制造.{#90CAF9<}{#4b4b4b}<"
+      - ""
+      - "{#CC99FF>}镁粉生产器{#CCFFFF<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#FF0033>}400 J 可储存{#33FF33<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#80DEEA>}产量: 4{#F44336<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}生产时间: 10 秒{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1 J{#FF0000<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CD6155>}粘液生产机器{#641E16<}{#4b4b4b})"
+    material: d8b72082e9b59a9f63d107c17e3c9d6c2557279037a8516d928c74a1aa328a1a
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGNESIUM_DUST
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGNESIUM_DUST
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SHENG_CHAN_MOKUAI_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGNESIUM_DUST
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGNESIUM_DUST
+      amount: 1
+  capacity: 400
+  output: [11,12,13,14,15]
+  outputItem:
+    material_type: slimefun
+    material: MAGNESIUM_DUST
+    amount: 4
+  tickRate: 10
   status: 4
   per: 1
 #--------------------------------------------------------------------------粘液矿物生产机器---------------------------------------------------------------------------------------#

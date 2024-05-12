@@ -2,6 +2,8 @@ MEIRS_MULTIBLOCK_MACHINE:
   item_group: meirs_sub_duo_fang_kuai
   item:
     name: "&a简易压缩器"
+    lore:
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#F0B27A>}多方块构造{#58D68D<}{#4b4b4b})"
     material: CRAFTING_TABLE
   recipe:
     #按照这个设置

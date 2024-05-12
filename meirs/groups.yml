@@ -1,13 +1,22 @@
 meirs_parent_group:
   type: "nested"
   item:
-    name: "&a简单机器-测试版"
+    name: "{#4FC3F7>}简单机器-测试版{#7E57C2<}{#4b4b4b}(meirs)"
     material: IRON_BLOCK
+meirs_sub_muto:
+  type: "sub"
+  parent: "meirs_parent_group"
+  item:
+    name: '{#C5E1A5>}原版木头生产机器{#FFE0B2<}'
+    material-type: skull_hash
+    material: OAK_LOG
+    lore:
+      - "&a?"
 meirs_sub_group:
   type: "sub"
   parent: "meirs_parent_group"
   item:
-    name: '{#C0392B>}原版生产机器{#F9EBEA<}'
+    name: '{#C0392B>}原版矿物生产机器{#F9EBEA<}'
     material-type: skull_hash
     material: 3d963be53bddc22bbcfba8f291942d2f672bd383e6e733b949e9ba708a7774c8
     lore:
@@ -25,21 +34,27 @@ meirs_sub_jiqi:
   type: "sub"
   parent: "meirs_parent_group"
   item:
-    name: "机器(普通)"
+    name: "{#A9CCE3}机器"
     material-type: skull_hash
     material: 68de28a62441c384a4832621255a19de8712d770635ef6f58444e6547ed00d88
+meirs_sub_tai_yang_neng_fa_dian:
+  type: "sub"
+  parent: "meirs_parent_group"
+  item:
+    name: "{#A9CCE3}发电机"
+    material: DAYLIGHT_DETECTOR
 meirs_sub_duo_fang_kuai:
   type: "sub"
   parent: "meirs_parent_group"
   item:
-    name: "多方块构造"
+    name: "{#F0B27A>}多方块构造{#58D68D<}"
     material-type: skull_hash
-    material: 68de28a62441c384a4832621255a19de8712d770635ef6f58444e6547ed00d88
+    material: d09102227099fe548f199efae1d413491dbe288c6431f268652ca36e35594b21
 meirs_sub_dianrong:
   type: "sub"
   parent: "meirs_parent_group"
   item:
-    name: "&e电容"
+    name: "{#F48FB1}电容"
     material_type: slimefun
     material: ENERGIZED_CAPACITOR
     lore:
@@ -48,7 +63,7 @@ meirs_sub_wuping:
   type: "sub"
   parent: "meirs_parent_group"
   item:
-    name: "&a物品"
+    name: "{#4DB6AC}物品"
     material: BOOK
     lore:
       - "&a?"
@@ -56,7 +71,7 @@ meirs_sub_yasuo:
   type: "sub"
   parent: "meirs_parent_group"
   item:
-    name: "&a压缩物品"
+    name: "{#CCCCFF>}压缩物品{#CC33FF<}"
     material: LADDER
     lore:
       - "&a?"

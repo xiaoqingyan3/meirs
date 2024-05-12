@@ -8,6 +8,8 @@ MEIRS_CAPACITOR_JICHUDIANRONG:
       - "{#4b4b4b}>{#BBDEFB>}一个非常简单的储存电能容器{#F44336<}{#4b4b4b}<"
       - ""
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#90CAF9>}200 {#FFFFCC<>}J 可储存{#9CCC65<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#F48FB1}电容{#4b4b4b})"
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 200
   recipe:

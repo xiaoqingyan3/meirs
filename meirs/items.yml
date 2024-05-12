@@ -6,6 +6,8 @@ MEIRS_ITEM_YASUO_YUANSHI_1:
     lore:
       - "{#4b4b4b}>{#FFE082>}由 9 个圆石进行压缩而来的{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}合成: 9 个圆石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
     material: ee54abbc65b13a42c29590a0cf9d3e00702d1e60d974f9286a7c17267f2282c9
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -25,6 +27,8 @@ MEIRS_ITEM_YASUO_YUANSHI_2:
     lore:
       - "{#4b4b4b}>{#FFE082>}由 36 个圆石进行压缩而来的{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}合成: 4 个一重压缩圆石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
     material: 57f99971601ee77666c05923f341a89ceba1357532279e3926aea79f55d263a0
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -43,6 +47,8 @@ MEIRS_ITEM_YASUO_YUANSHI_3:
     lore:
       - "{#4b4b4b}>{#FFE082>}由 144 个圆石进行压缩而来的{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}合成: 4 个二重压缩圆石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
     material: 8c96220dc7b85b909a575acfaffb06c8c878a2d515dbec28bf2680346acf173f
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -61,6 +67,8 @@ MEIRS_ITEM_YASUO_YUANSHI_4:
     lore:
       - "{#4b4b4b}>{#FFE082>}由 576 个圆石进行压缩而来的{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}合成: 4 个三重压缩圆石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
     material: 9e2b0924aa2b424e0ff6616a93c8ef487057745af1aa5cd223c541ebd3a688a3
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -79,6 +87,8 @@ MEIRS_ITEM_YASUO_YUANSHI_5:
     lore:
       - "{#4b4b4b}>{#FFE082>}由 1,728 个圆石进行压缩而来的{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}合成: 3 个四重压缩圆石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
     material: 37fba6ba0e17007ae17cb1b48f49c26a0256a7d2e8884c3cf07aaede025ebb72
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -101,6 +111,8 @@ MEIRS_ITEM_YASUO_YUANSHI_6:
     lore:
       - "{#4b4b4b}>{#FFE082>}由 5,184 个圆石进行压缩而来的{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}合成: 3 个五重压缩圆石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
     material: b5a86541ed9cd29fcac0a801cece9c27a00549ecf41c46ded300bb012da59390
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -123,6 +135,8 @@ MEIRS_ITEM_YASUO_YUANSHI_7:
     lore:
       - "{#4b4b4b}>{#FFE082>}由 10,368 个圆石进行压缩而来的{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}合成: 2 个六重压缩圆石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
     material: 9ec69a73450820bb97b51509b334eb0d9f6c1f8a9d515fad57f3b7619aa3af9a
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -141,6 +155,8 @@ MEIRS_ITEM_YASUO_YUANSHI_8:
     lore:
       - "{#4b4b4b}>{#FFE082>}由 20,736 个圆石进行压缩而来的{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}合成: 2 个七重重压缩圆石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
     material: b6ebc30aa2edfa1991a5ba77e2f2cb9d7398d375be99b1c1eff7aef2dddf7399
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -159,6 +175,8 @@ MEIRS_ITEM_YASUO_YUANSHI_9:
     lore:
       - "{#4b4b4b}>{#FFE082>}由 41,472 个圆石进行压缩而来的{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}合成: 2 个八重压缩圆石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
     material: 811b19b06813d0388eae03bb2c97621c48a78b34f735a925787934a6c304199a
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -170,6 +188,196 @@ MEIRS_ITEM_YASUO_YUANSHI_9:
       material_type: slimefun
       material: MEIRS_ITEM_YASUO_YUANSHI_8
       amount: 1
+# ----------------------------------煤炭压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_MEITAN_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EAECEE>}一重压缩煤炭{#283747<}"
+    lore:
+      - "{#4b4b4b}>{#ABEBC6>}由 9 个煤炭进行压缩而来的{#AED6F1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#FFE082>}合成: 9 个煤炭{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: COAL
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: COAL
+      amount: 3
+    2:
+      material: COAL
+      amount: 3
+    4:
+      material: COAL
+      amount: 3
+MEIRS_ITEM_YASUO_MEITAN_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EAECEE>}二重压缩煤炭{#283747<}"
+    lore:
+      - "{#4b4b4b}>{#ABEBC6>}由 36 个煤炭进行压缩而来的{#AED6F1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#FFE082>}合成: 4 个一重压缩煤炭{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: 59816b004c0a1246ee209509ffc93a3024bf1df19b09699ac8379de11860f533
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_1
+      amount: 2
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_1
+      amount: 2
+MEIRS_ITEM_YASUO_MEITAN_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EAECEE>}三重压缩煤炭{#283747<}"
+    lore:
+      - "{#4b4b4b}>{#ABEBC6>}由 144 个煤炭进行压缩而来的{#AED6F1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#FFE082>}合成: 4 个二重压缩煤炭{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: 59816b004c0a1246ee209509ffc93a3024bf1df19b09699ac8379de11860f533
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_2
+      amount: 2
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_2
+      amount: 2
+MEIRS_ITEM_YASUO_MEITAN_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EAECEE>}四重压缩煤炭{#283747<}"
+    lore:
+      - "{#4b4b4b}>{#ABEBC6>}由 576 个煤炭进行压缩而来的{#AED6F1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#FFE082>}合成: 4 个三重压缩煤炭{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: 59816b004c0a1246ee209509ffc93a3024bf1df19b09699ac8379de11860f533
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_3
+      amount: 2
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_3
+      amount: 2
+MEIRS_ITEM_YASUO_MEITAN_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EAECEE>}五重压缩煤炭{#283747<}"
+    lore:
+      - "{#4b4b4b}>{#ABEBC6>}由 1,728 个煤炭进行压缩而来的{#AED6F1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#FFE082>}合成: 3 个四重压缩煤炭{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: 59816b004c0a1246ee209509ffc93a3024bf1df19b09699ac8379de11860f533
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_4
+      amount: 1
+MEIRS_ITEM_YASUO_MEITAN_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EAECEE>}六重压缩煤炭{#283747<}"
+    lore:
+      - "{#4b4b4b}>{#ABEBC6>}由 5,184 个煤炭进行压缩而来的{#AED6F1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#FFE082>}合成: 3 个五重压缩煤炭{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: 59816b004c0a1246ee209509ffc93a3024bf1df19b09699ac8379de11860f533
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_5
+      amount: 1
+MEIRS_ITEM_YASUO_MEITAN_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EAECEE>}七重压缩煤炭{#283747<}"
+    lore:
+      - "{#4b4b4b}>{#ABEBC6>}由 10,368 个煤炭进行压缩而来的{#AED6F1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#FFE082>}合成: 2 个六重压缩煤炭{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: 59816b004c0a1246ee209509ffc93a3024bf1df19b09699ac8379de11860f533
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_6
+      amount: 1
+MEIRS_ITEM_YASUO_MEITAN_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EAECEE>}八重压缩煤炭{#283747<}"
+    lore:
+      - "{#4b4b4b}>{#ABEBC6>}由 20,736 个煤炭进行压缩而来的{#AED6F1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#FFE082>}合成: 2 个七重压缩煤炭{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: 59816b004c0a1246ee209509ffc93a3024bf1df19b09699ac8379de11860f533
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_7
+      amount: 1
+MEIRS_ITEM_YASUO_MEITAN_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EAECEE>}九重压缩煤炭{#283747<}"
+    lore:
+      - "{#4b4b4b}>{#ABEBC6>}由 41,472 个煤炭进行压缩而来的{#AED6F1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#FFE082>}合成: 2 个八重压缩煤炭{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: 59816b004c0a1246ee209509ffc93a3024bf1df19b09699ac8379de11860f533
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_MEITAN_8
+      amount: 1
 # ----------------------------------压缩钢 1------------------------------------ #
 MEIRS_ITEM_YASUO_GANGKUAI_1:
   item_group: meirs_sub_wuping
@@ -177,6 +385,8 @@ MEIRS_ITEM_YASUO_GANGKUAI_1:
     name: "{#B2BABB>}钢块{#99A3A4<}"
     lore:
       - "{#4b4b4b}>{#FFE082>}由 9 个钢锭合成而来的{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: c411d48eebe3b1a327ad5fefe48b9852f8a449930c9b2fedaeef2d5f7ad20a6e
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -198,6 +408,8 @@ MEIRS_ITEM_YASUO_QIANGHUAHEJING_KUAI_1:
     name: "{#FFFFFF>}强化合金块{#9E9E9E<}"
     lore:
       - "{#4b4b4b}>{#FFE082>}由 9 个强化合金锭合成而来的{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 7320728863a86f8ae1103932861844fd20e72b184de1cb685d375b75481cb153
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -219,6 +431,8 @@ MEIRS_ITEM_YASUO_GU_KUAI_1:
     name: "{#4FC3F7>}钴块{#4DD0E1<}"
     lore:
       - "{#4b4b4b}>{#FFE082>}由 9 个钴锭合成而来的{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 7b951fed6a7b2cbc2036916dec7a46c4a56481564d14f945b6ebc03382766d3b
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -240,6 +454,8 @@ MEIRS_ITEM_HEJIN_GANG_1:
     name: "{#90CAF9>}合金钢{#80DEEA<}"
     lore:
       - "{#4b4b4b}>{#FFE082>}强度高{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: ba335932f04a9c411d97e22fbb9f22282ee07af2f29337b19e767f30b4b19128
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -257,6 +473,8 @@ MEIRS_ITEM_QIANGHUA_HEJIN_GANG_1:
     name: "{#90CAF9>}强化合金钢?{#5C6BC0<}"
     lore:
       - "{#4b4b4b}>{#FFE082>}在里面加入了某些东西,看起来很奇怪？{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 460d28c24b6328d4443779163cceee20aa07c0a70149a0dbcdc44cf924415bfc
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -279,36 +497,37 @@ MEIRS_ITEM_KUANG_JIA_1:
     name: "{#4FC3F7>}机器框架{#7E57C2<}{#757575}({#E57373}初级{#757575})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用来制造机器的重要东西{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 1c1be9812f3adddcfb23983b127d9e743c32b5d6765bbbea667e594c85f70061
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
-      material: IRON_BLOCK
+      material: IRON_INGOT
       amount: 1
     2:
       material: IRON_BLOCK
       amount: 1
     3:
-      material: IRON_BLOCK
+      material: IRON_INGOT
       amount: 1
     4:
       material: IRON_BLOCK
       amount: 1
     5:
-      material_type: slimefun
-      material: STEEL_INGOT
+      material: IRON_INGOT
       amount: 1
     6:
       material: IRON_BLOCK
       amount: 1
     7:
-      material: IRON_BLOCK
+      material: IRON_INGOT
       amount: 1
     8:
       material: IRON_BLOCK
       amount: 1
     9:
-      material: IRON_BLOCK
+      material: IRON_INGOT
       amount: 1
 MEIRS_ITEM_KUANG_JIA_2:
   item_group: meirs_sub_wuping
@@ -316,6 +535,8 @@ MEIRS_ITEM_KUANG_JIA_2:
     name: "{#4FC3F7>}机器框架{#7E57C2<}{#757575}({#EF5350}中级{#757575})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用来制造机器的重要东西{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 9528525c0a783986d1863b58bbb511f80ab411d8daa96f874bcd9f658809a8a9
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -357,6 +578,8 @@ MEIRS_ITEM_KUANG_JIA_3:
     name: "{#4FC3F7>}机器框架{#7E57C2<}{#757575}({#F44336}高级{#757575})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用来制造机器的重要东西{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 430996b83126b761594885d509cff2da11cda55450c8cf60b28ddacbcf0294a1
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -402,6 +625,8 @@ MEIRS_ITEM_KUANG_JIA_4:
     name: "{#4FC3F7>}机器框架{#7E57C2<}{#757575}({#E53935}终级{#757575})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用来制造机器的重要东西{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: a6eb089bc16bcce4f2bbd1d50383cf245b37df940582500e74fb8b17a336db05
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -449,6 +674,8 @@ MEIRS_ITEM_MUTO:
     lore:
       - "{#4b4b4b}>{#FFE082>}掰断这个木板可能需要使出很大的力{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}用于制造物品{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: fd238faefcbc5e685f90c1110998c2326bd013050594ccaf66d7c95201c8ceff
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -477,6 +704,8 @@ MEIRS_ITEM_MUTO_2:
     lore:
       - "{#4b4b4b}>{#FFE082>}硬度高,拿来当工具使用都可以.{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}用于制造物品{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 3a61b3b15eff306fde6b4a883c0267e6b3cd4d598b0f7fbdbee22b6e2bef03ab
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -512,6 +741,8 @@ MEIRS_ITEM_MUTO_3:
       - "{#4b4b4b}>{#FFE082>}硬度很高.{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}能与金属比硬度,但跟合金比不了.{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}用于制造物品{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 944331b107f19b750b37e53ffd17490794e8a5be46dbaca9ab241ffcdb659568
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -546,6 +777,8 @@ MEIRS_ITEM_MUTO_4:
     lore:
       - "{#4b4b4b}>{#FFE082>}硬度非常高.{#81D4FA<}{#4b4b4b}<"
       - "{#4b4b4b}>{#FFE082>}用于制造物品{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 34ed0223664895d15243db4cfb56456448dc98462afe64ddfe65ceb82ba3a4fe
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -580,6 +813,8 @@ MEIRS_MOKUAI_1:
     name: "{#BBDEFB>}模块{#90CAF9<}{#4b4b4b}({#00FFFF}初级{#4b4b4b})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用于制造物品{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: e7420a879338d19165a8c66790025bd9ba60c17265b46234cddd6d4e3728b156
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -603,6 +838,8 @@ MEIRS_MOKUAI_2:
     name: "{#90CAF9>}模块{#64B5F6<}{#4b4b4b}({#00CCFF}中级{#4b4b4b})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用于制造物品{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 920b3389f24db2a4cf6e9e54b272bb46315bd936eb927bd3f26c7429688bea6a
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -636,6 +873,8 @@ MEIRS_MOKUAI_3:
     name: "{#64B5F6>}模块{#42A5F5<}{#4b4b4b}({#0099FF}高级{#4b4b4b})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用于制造物品{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 8eb1dd3a36e4f6fddd5b6bb1b9c93f48da5fb17db606c068451be6849d642caf
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -669,6 +908,8 @@ MEIRS_MOKUAI_4:
     name: "{#42A5F5>}模块{#2196F3<}{#4b4b4b}({#0066FF}终级{#4b4b4b})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用于制造物品{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 9774928d51298e7d66aee92aa5d33e442bd4e037324463ff5a5440dce9e13f65
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -703,6 +944,8 @@ MEIRS_DIAN_NENGCHUCUNMOKUAI_1:
     name: "{#FFFFCC>}电能储存模块{#00CCFF<}{#4b4b4b}({#B39DDB}初级{#4b4b4b})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用于制造机器{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: ce34d8713b9107b66cb98c6b9fb798d6dfc3fd671bb2ddc75eeae64cfc75a609
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -724,6 +967,8 @@ MEIRS_DIAN_NENGCHUCUNMOKUAI_2:
     name: "{#FFFFCC>}电能储存模块{#00CCFF<}{#4b4b4b}({#9575CD}中级{#4b4b4b})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用于制造机器{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: e663810319dc1ddccf304dc3759719094fbad09dff671428bc94f093ffca7f77
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -745,6 +990,8 @@ MEIRS_DIAN_NENGCHUCUNMOKUAI_3:
     name: "{#FFFFCC>}电能储存模块{#00CCFF<}{#4b4b4b}({#7E57C2}高级{#4b4b4b})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用于制造机器{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: 9f8f2ac25b826bb1f65e58c844131c67de3d5655422108d38da8410a55c21cfb
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -766,6 +1013,8 @@ MEIRS_DIAN_NENGCHUCUNMOKUAI_4:
     name: "{#FFFFCC>}电能储存模块{#00CCFF<}{#4b4b4b}({#673AB7}终级{#4b4b4b})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用于制造机器{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: ce34d8713b9107b66cb98c6b9fb798d6dfc3fd671bb2ddc75eeae64cfc75a609
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -785,9 +1034,11 @@ MEIRS_DIAN_NENGCHUCUNMOKUAI_4:
 MEIRS_SHENG_CHAN_MOKUAI_1:
   item_group: meirs_sub_wuping
   item:
-    name: "&a机器生产模块(初级)"
+    name: "{#BB8FCE>}机器生产模块{#3498DB<}{#4b4b4b}({#ABEBC6}初级{#4b4b4b})"
     lore:
       - "{#4b4b4b}>{#FFE082>}用于制造机器{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
     material: b0130ef58b2293b18e90c265c48d1e02e64b854f5886c6209dff66f630c6fa56
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -801,4 +1052,73 @@ MEIRS_SHENG_CHAN_MOKUAI_1:
     3:
       material_type: slimefun
       material: MEIRS_MOKUAI_1
+      amount: 1
+MEIRS_SHENG_CHAN_MOKUAI_2:
+  item_group: meirs_sub_wuping
+  item:
+    name: "{#BB8FCE>}机器生产模块{#3498DB<}{#4b4b4b}({#82E0AA}中级{#4b4b4b})"
+    lore:
+      - "{#4b4b4b}>{#FFE082>}用于制造机器{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
+    material: e33984d008eacc44b4282f0385a3bd071a18b76ba0f4ff2564418d2734314201
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_MOKUAI_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_GANGKUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_MOKUAI_2
+      amount: 1
+MEIRS_SHENG_CHAN_MOKUAI_3:
+  item_group: meirs_sub_wuping
+  item:
+    name: "{#BB8FCE>}机器生产模块{#3498DB<}{#4b4b4b}({#58D68D}高级{#4b4b4b})"
+    lore:
+      - "{#4b4b4b}>{#FFE082>}用于制造机器{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
+    material: bf723c6896e2b815c506c8a41f7166ef30ebc8c284c998f0762bfd814f931fe6
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_MOKUAI_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_GU_KUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_MOKUAI_3
+      amount: 1
+MEIRS_SHENG_CHAN_MOKUAI_4:
+  item_group: meirs_sub_wuping
+  item:
+    name: "{#BB8FCE>}机器生产模块{#3498DB<}{#4b4b4b}({#2ECC71}终级{#4b4b4b})"
+    lore:
+      - "{#4b4b4b}>{#FFE082>}用于制造机器{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#4DB6AC}物品{#4b4b4b})"
+    material: 13ea401c7e02d13cea1de6835ee9f5c47757d399dae5c2b9c3efde6ae63ea4a2
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_MOKUAI_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QIANGHUAHEJING_KUAI_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_MOKUAI_4
       amount: 1
