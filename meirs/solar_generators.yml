@@ -1,21 +1,23 @@
-MEIRS_SOLAR_GENERATOR:
+MEIRS_SOLAR_GENERATOR_1:
   item_group: meirs_sub_tai_yang_neng_fa_dian
   item:
     name: "{#AF601A>}泥土发电机{#D68910<}"
     material: 5ae6a911fa2b9f4cb2a365eca8d0b60ccd1b0e3ba4809d934537518309c1b4fc
     lore:
-      - "{#AED6F1>}这玩意真能发电？{#ABEBC6<}"
-      - "{#EC7063>}欸,还真可以!{#A3E4D7<}"
+      - "{#4b4b4b}>{#AED6F1>}这玩意真能发电？{#ABEBC6<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EC7063>}欸,还真可以!{#A3E4D7<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EC7063>}也不知道为什么能发电,可能是无中生有吧！{#A3E4D7<}{#4b4b4b}<"
       - ""
       - "{#DC7633>}泥土发电机{#F0B27A<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#F4F6F7>}白天: 5 J/t{#F8C471<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#85929E>}夜晚: 5 J/t{#F8C471<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#82E0AA>}储电量: 1000 J{#F4D03F<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#85929E>}夜晚: 2 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#82E0AA>}储电量: 0 J{#F4D03F<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#9FA8DA>}吸光能力: 0 {#CE93D8<}"
       - ""
       - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#A9CCE3}发电机{#4b4b4b})"
-  capacity: 1000
+  capacity: 0
   dayEnergy: 5
-  nightEnergy: 5
+  nightEnergy: 2
   lightLevel: 1
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -39,4 +41,224 @@ MEIRS_SOLAR_GENERATOR:
       amount: 1
     9:
       material: DIRT
+      amount: 1
+MEIRS_SOLAR_GENERATOR_2:
+  item_group: meirs_sub_tai_yang_neng_fa_dian
+  item:
+    name: "{#AF601A>}泥土发电机{#D68910<} {#BBDEFB>}进阶版{#B2EBF2<}"
+    material: 5ae6a911fa2b9f4cb2a365eca8d0b60ccd1b0e3ba4809d934537518309c1b4fc
+    lore:
+      - "{#4b4b4b}>{#AED6F1>}加强了吸光能力{#ABEBC6<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EC7063>}使它发电更加强大!{#A3E4D7<}{#4b4b4b}<"
+      - ""
+      - "{#DC7633>}泥土发电机{#F0B27A<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#F4F6F7>}白天: 20 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#85929E>}夜晚: 15 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#82E0AA>}储电量: 200 J{#F4D03F<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#9FA8DA>}吸光能力: 3 {#CE93D8<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#A9CCE3}发电机{#4b4b4b})"
+  capacity: 200
+  dayEnergy: 20
+  nightEnergy: 15
+  lightLevel: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_1
+      amount: 1
+MEIRS_SOLAR_GENERATOR_3:
+  item_group: meirs_sub_tai_yang_neng_fa_dian
+  item:
+    name: "{#AF601A>}泥土发电机{#D68910<} {#BBDEFB>}进阶版-Plus{#B2EBF2<}"
+    material: 5ae6a911fa2b9f4cb2a365eca8d0b60ccd1b0e3ba4809d934537518309c1b4fc
+    lore:
+      - "{#4b4b4b}>{#AED6F1>}加强了吸光能力{#ABEBC6<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EC7063>}使它发电更加强大!{#A3E4D7<}{#4b4b4b}<"
+      - ""
+      - "{#DC7633>}泥土发电机{#F0B27A<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#F4F6F7>}白天: 25 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#85929E>}夜晚: 20 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#82E0AA>}储电量: 300 J{#F4D03F<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#9FA8DA>}吸光能力: 6 {#CE93D8<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#A9CCE3}发电机{#4b4b4b})"
+  capacity: 300
+  dayEnergy: 25
+  nightEnergy: 20
+  lightLevel: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+MEIRS_SOLAR_YASUO_GENERATOR_1:
+  item_group: meirs_sub_tai_yang_neng_fa_dian
+  item:
+    name: "{#AF601A>}压缩泥土发电机{#D68910<}"
+    material: d49c2a819fdde401d8aab28d3ae8daeb773c47fdc6512df4ac39b9535e9bdc08
+    lore:
+      - "{#4b4b4b}>{#AED6F1>}泥土与泥土紧密相连,密度变大了.{#ABEBC6<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#AED6F1>}吸光能力或许变得更加强大？.{#ABEBC6<}{#4b4b4b}<"
+      - ""
+      - "{#DC7633>}压缩泥土发电机{#F0B27A<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#F4F6F7>}白天: 145 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#85929E>}夜晚: 135 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#82E0AA>}储电量: 1800 J{#F4D03F<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#9FA8DA>}吸光能力: 27 {#CE93D8<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#A9CCE3}发电机{#4b4b4b})"
+  capacity: 1800
+  dayEnergy: 145
+  nightEnergy: 135
+  lightLevel: 2
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_2
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_2
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_2
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_2
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_2
+      amount: 1
+MEIRS_SOLAR_YASUO_GENERATOR_2:
+  item_group: meirs_sub_tai_yang_neng_fa_dian
+  item:
+    name: "{#AF601A>}压缩泥土发电机{#D68910<} {#BBDEFB>}Plus{#B2EBF2<}"
+    material: d49c2a819fdde401d8aab28d3ae8daeb773c47fdc6512df4ac39b9535e9bdc08
+    lore:
+      - "{#4b4b4b}>{#AED6F1>}泥土与泥土紧密相连,密度变大了.{#ABEBC6<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#AED6F1>}吸光能力或许变得更加强大？.{#ABEBC6<}{#4b4b4b}<"
+      - ""
+      - "{#DC7633>}压缩泥土发电机{#F0B27A<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#F4F6F7>}白天: 275 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#85929E>}夜晚: 260 J/t{#F8C471<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#82E0AA>}储电量: 2700 J{#F4D03F<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#9FA8DA>}吸光能力: 54 {#CE93D8<}"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#A9CCE3}发电机{#4b4b4b})"
+  capacity: 2700
+  dayEnergy: 275
+  nightEnergy: 260
+  lightLevel: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_3
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_3
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MEIRS_SOLAR_GENERATOR_3
       amount: 1

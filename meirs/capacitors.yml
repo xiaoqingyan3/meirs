@@ -1,8 +1,8 @@
 MEIRS_CAPACITOR_JICHUDIANRONG:
   item_group: meirs_sub_dianrong
   item:
-    material_type: slimefun
-    material: ENERGIZED_CAPACITOR
+    material_type: saveditem
+    material: MEIRS_CAPACITOR_JICHUDIANRONG_1
     name: "{#F8BBD0>}简易电容{#9FA8DA<}"
     lore:
       - "{#4b4b4b}>{#BBDEFB>}一个非常简单的储存电能容器{#F44336<}{#4b4b4b}<"

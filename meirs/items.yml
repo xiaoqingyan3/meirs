@@ -378,6 +378,2384 @@ MEIRS_ITEM_YASUO_MEITAN_9:
       material_type: slimefun
       material: MEIRS_ITEM_YASUO_MEITAN_8
       amount: 1
+# ----------------------------------青金石压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_QINGJINSHI_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#81D4FA>}一重压缩青金石{#4DD0E1<}"
+    lore:
+      - "{#4b4b4b}>{#26C6DA>}由 9 个青金石进行压缩而来的{#BBDEFB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#26C6DA>}合成: 9 个青金石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: LAPIS_LAZULI
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: LAPIS_LAZULI
+      amount: 1
+    2:
+      material: LAPIS_LAZULI
+      amount: 1
+    3:
+      material: LAPIS_LAZULI
+      amount: 1
+    4:
+      material: LAPIS_LAZULI
+      amount: 1
+    5:
+      material: LAPIS_LAZULI
+      amount: 1
+    6:
+      material: LAPIS_LAZULI
+      amount: 1
+    7:
+      material: LAPIS_LAZULI
+      amount: 1
+    8:
+      material: LAPIS_LAZULI
+      amount: 1
+    9:
+      material: LAPIS_LAZULI
+      amount: 1
+MEIRS_ITEM_YASUO_QINGJINSHI_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#81D4FA>}二重压缩青金石{#4DD0E1<}"
+    lore:
+      - "{#4b4b4b}>{#26C6DA>}由 36 个青金石进行压缩而来的{#BBDEFB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#26C6DA>}合成: 4 个一重压缩青金石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: LAPIS_LAZULI
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_1
+      amount: 1
+MEIRS_ITEM_YASUO_QINGJINSHI_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#81D4FA>}三重压缩青金石{#4DD0E1<}"
+    lore:
+      - "{#4b4b4b}>{#26C6DA>}由 144 个青金石进行压缩而来的{#BBDEFB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#26C6DA>}合成: 4 个二重压缩青金石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: LAPIS_LAZULI
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_2
+      amount: 1
+MEIRS_ITEM_YASUO_QINGJINSHI_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#81D4FA>}四重压缩青金石{#4DD0E1<}"
+    lore:
+      - "{#4b4b4b}>{#26C6DA>}由 576 个青金石进行压缩而来的{#BBDEFB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#26C6DA>}合成: 4 个三重压缩青金石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: LAPIS_LAZULI
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_3
+      amount: 1
+MEIRS_ITEM_YASUO_QINGJINSHI_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#81D4FA>}五重压缩青金石{#4DD0E1<}"
+    lore:
+      - "{#4b4b4b}>{#26C6DA>}由 1,728 个青金石进行压缩而来的{#BBDEFB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#26C6DA>}合成: 3 个四重压缩青金石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: LAPIS_LAZULI
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_4
+      amount: 1
+MEIRS_ITEM_YASUO_QINGJINSHI_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#81D4FA>}六重压缩青金石{#4DD0E1<}"
+    lore:
+      - "{#4b4b4b}>{#26C6DA>}由 5,184 个青金石进行压缩而来的{#BBDEFB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#26C6DA>}合成: 3 个五重压缩青金石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: LAPIS_LAZULI
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_5
+      amount: 1
+MEIRS_ITEM_YASUO_QINGJINSHI_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#81D4FA>}七重压缩青金石{#4DD0E1<}"
+    lore:
+      - "{#4b4b4b}>{#26C6DA>}由 10,368 个青金石进行压缩而来的{#BBDEFB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#26C6DA>}合成: 2 个六重压缩青金石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: LAPIS_LAZULI
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_6
+      amount: 1
+MEIRS_ITEM_YASUO_QINGJINSHI_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#81D4FA>}八重压缩青金石{#4DD0E1<}"
+    lore:
+      - "{#4b4b4b}>{#26C6DA>}由 20,736 个青金石进行压缩而来的{#BBDEFB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#26C6DA>}合成: 2 个七重压缩青金石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: LAPIS_LAZULI
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_7
+      amount: 1
+MEIRS_ITEM_YASUO_QINGJINSHI_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#81D4FA>}九重压缩青金石{#4DD0E1<}"
+    lore:
+      - "{#4b4b4b}>{#26C6DA>}由 41,472 个青金石进行压缩而来的{#BBDEFB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#26C6DA>}合成: 2 个八重压缩青金石{#81D4FA<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: LAPIS_LAZULI
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_QINGJINSHI_8
+      amount: 1
+# ----------------------------------下界石英压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_XIAJIESHIYING_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#E0E0E0>}一重压缩石英{#B0BEC5<}"
+    lore:
+      - "{#4b4b4b}>{#9E9E9E>}由 9 个石英进行压缩而来的{#A1887F<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#9E9E9E>}合成: 9 个石英{#A1887F<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: QUARTZ
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: QUARTZ
+      amount: 1
+    2:
+      material: QUARTZ
+      amount: 1
+    3:
+      material: QUARTZ
+      amount: 1
+    4:
+      material: QUARTZ
+      amount: 1
+    5:
+      material: QUARTZ
+      amount: 1
+    6:
+      material: QUARTZ
+      amount: 1
+    7:
+      material: QUARTZ
+      amount: 1
+    8:
+      material: QUARTZ
+      amount: 1
+    9:
+      material: QUARTZ
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIESHIYING_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#E0E0E0>}二重压缩石英{#B0BEC5<}"
+    lore:
+      - "{#4b4b4b}>{#9E9E9E>}由 36 个石英进行压缩而来的{#A1887F<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#9E9E9E>}合成: 4 个一重压缩石英{#A1887F<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: QUARTZ
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_1
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIESHIYING_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#E0E0E0>}三重压缩石英{#B0BEC5<}"
+    lore:
+      - "{#4b4b4b}>{#9E9E9E>}由 144 个石英进行压缩而来的{#A1887F<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#9E9E9E>}合成: 4 个二重压缩石英{#A1887F<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: QUARTZ
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_2
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIESHIYING_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#E0E0E0>}四重压缩石英{#B0BEC5<}"
+    lore:
+      - "{#4b4b4b}>{#9E9E9E>}由 576 个石英进行压缩而来的{#A1887F<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#9E9E9E>}合成: 4 个三重压缩石英{#A1887F<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: QUARTZ
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_3
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIESHIYING_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#E0E0E0>}五重压缩石英{#B0BEC5<}"
+    lore:
+      - "{#4b4b4b}>{#9E9E9E>}由 1,728 个石英进行压缩而来的{#A1887F<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#9E9E9E>}合成: 3 个四重压缩石英{#A1887F<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: QUARTZ
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_4
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIESHIYING_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#E0E0E0>}六重压缩石英{#B0BEC5<}"
+    lore:
+      - "{#4b4b4b}>{#9E9E9E>}由 5,184 个石英进行压缩而来的{#A1887F<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#9E9E9E>}合成: 3 个五重压缩石英{#A1887F<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: QUARTZ
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_5
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIESHIYING_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#E0E0E0>}七重压缩石英{#B0BEC5<}"
+    lore:
+      - "{#4b4b4b}>{#9E9E9E>}由 10,368 个石英进行压缩而来的{#A1887F<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#9E9E9E>}合成: 2 个六重压缩石英{#A1887F<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: QUARTZ
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_6
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIESHIYING_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#E0E0E0>}八重压缩石英{#B0BEC5<}"
+    lore:
+      - "{#4b4b4b}>{#9E9E9E>}由 20,736 个石英进行压缩而来的{#A1887F<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#9E9E9E>}合成: 2 个七重压缩石英{#A1887F<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: QUARTZ
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_7
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIESHIYING_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#E0E0E0>}九重压缩石英{#B0BEC5<}"
+    lore:
+      - "{#4b4b4b}>{#9E9E9E>}由 41,472 个石英进行压缩而来的{#A1887F<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#9E9E9E>}合成: 2 个八重压缩石英{#A1887F<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: QUARTZ
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIESHIYING_8
+      amount: 1
+# ----------------------------------紫水晶压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_ZISHUIJIN_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#7E57C2>}一重压缩紫水晶{#BA68C8<}"
+    lore:
+      - "{#4b4b4b}>{#BA68C8>}由 9 个紫水晶进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#BA68C8>}合成: 9 个紫水晶{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: AMETHYST_SHARD
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: AMETHYST_SHARD
+      amount: 1
+    2:
+      material: AMETHYST_SHARD
+      amount: 1
+    3:
+      material: AMETHYST_SHARD
+      amount: 1
+    4:
+      material: AMETHYST_SHARD
+      amount: 1
+    5:
+      material: AMETHYST_SHARD
+      amount: 1
+    6:
+      material: AMETHYST_SHARD
+      amount: 1
+    7:
+      material: AMETHYST_SHARD
+      amount: 1
+    8:
+      material: AMETHYST_SHARD
+      amount: 1
+    9:
+      material: AMETHYST_SHARD
+      amount: 1
+MEIRS_ITEM_YASUO_ZISHUIJIN_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#7E57C2>}二重压缩紫水晶{#BA68C8<}"
+    lore:
+      - "{#4b4b4b}>{#BA68C8>}由 36 个紫水晶进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#BA68C8>}合成: 4 个一重压缩紫水晶{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: AMETHYST_SHARD
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_1
+      amount: 1
+MEIRS_ITEM_YASUO_ZISHUIJIN_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#7E57C2>}三重压缩紫水晶{#BA68C8<}"
+    lore:
+      - "{#4b4b4b}>{#BA68C8>}由 144 个紫水晶进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#BA68C8>}合成: 4 个二重压缩紫水晶{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: AMETHYST_SHARD
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_2
+      amount: 1
+MEIRS_ITEM_YASUO_ZISHUIJIN_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#7E57C2>}四重压缩紫水晶{#BA68C8<}"
+    lore:
+      - "{#4b4b4b}>{#BA68C8>}由 576 个紫水晶进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#BA68C8>}合成: 4 个三重压缩紫水晶{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: AMETHYST_SHARD
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_3
+      amount: 1
+MEIRS_ITEM_YASUO_ZISHUIJIN_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#7E57C2>}五重压缩紫水晶{#BA68C8<}"
+    lore:
+      - "{#4b4b4b}>{#BA68C8>}由 1,728 个紫水晶进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#BA68C8>}合成: 3 个四重压缩紫水晶{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: AMETHYST_SHARD
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_4
+      amount: 1
+MEIRS_ITEM_YASUO_ZISHUIJIN_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#7E57C2>}六重压缩紫水晶{#BA68C8<}"
+    lore:
+      - "{#4b4b4b}>{#BA68C8>}由 5,184 个紫水晶进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#BA68C8>}合成: 3 个五重压缩紫水晶{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: AMETHYST_SHARD
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_5
+      amount: 1
+MEIRS_ITEM_YASUO_ZISHUIJIN_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#7E57C2>}七重压缩紫水晶{#BA68C8<}"
+    lore:
+      - "{#4b4b4b}>{#BA68C8>}由 10,368 个紫水晶进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#BA68C8>}合成: 2 个六重压缩紫水晶{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: AMETHYST_SHARD
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_6
+      amount: 1
+MEIRS_ITEM_YASUO_ZISHUIJIN_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#7E57C2>}八重压缩紫水晶{#BA68C8<}"
+    lore:
+      - "{#4b4b4b}>{#BA68C8>}由 20,736 个紫水晶进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#BA68C8>}合成: 2 个七重压缩紫水晶{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: AMETHYST_SHARD
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_7
+      amount: 1
+MEIRS_ITEM_YASUO_ZISHUIJIN_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#7E57C2>}九重压缩紫水晶{#BA68C8<}"
+    lore:
+      - "{#4b4b4b}>{#BA68C8>}由 41,472 个紫水晶进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#BA68C8>}合成: 2 个八重压缩紫水晶{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: AMETHYST_SHARD
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZISHUIJIN_8
+      amount: 1
+# ----------------------------------铜锭压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_TONGDING_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}一重压缩铜锭{#E67E22<}"
+    lore:
+      - "{#4b4b4b}>{#E67E22>}由 9 个铜锭进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#E67E22>}合成: 9 个铜锭{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: COPPER_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: COPPER_INGOT
+      amount: 1
+    2:
+      material: COPPER_INGOT
+      amount: 1
+    3:
+      material: COPPER_INGOT
+      amount: 1
+    4:
+      material: COPPER_INGOT
+      amount: 1
+    5:
+      material: COPPER_INGOT
+      amount: 1
+    6:
+      material: COPPER_INGOT
+      amount: 1
+    7:
+      material: COPPER_INGOT
+      amount: 1
+    8:
+      material: COPPER_INGOT
+      amount: 1
+    9:
+      material: COPPER_INGOT
+      amount: 1
+MEIRS_ITEM_YASUO_TONGDING_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}二重压缩铜锭{#E67E22<}"
+    lore:
+      - "{#4b4b4b}>{#E67E22>}由 36 个铜锭进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#E67E22>}合成: 4 个一重压缩铜锭{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: COPPER_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_1
+      amount: 1
+MEIRS_ITEM_YASUO_TONGDING_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}三重压缩铜锭{#E67E22<}"
+    lore:
+      - "{#4b4b4b}>{#E67E22>}由 144 个铜锭进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#E67E22>}合成: 4 个二重压缩铜锭{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: COPPER_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_2
+      amount: 1
+MEIRS_ITEM_YASUO_TONGDING_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}四重压缩铜锭{#E67E22<}"
+    lore:
+      - "{#4b4b4b}>{#E67E22>}由 576 个铜锭进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#E67E22>}合成: 4 个三重压缩铜锭{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: COPPER_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_3
+      amount: 1
+MEIRS_ITEM_YASUO_TONGDING_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}五重压缩铜锭{#E67E22<}"
+    lore:
+      - "{#4b4b4b}>{#E67E22>}由 1,728 个铜锭进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#E67E22>}合成: 3 个四重压缩铜锭{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: COPPER_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_4
+      amount: 1
+MEIRS_ITEM_YASUO_TONGDING_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}六重压缩铜锭{#E67E22<}"
+    lore:
+      - "{#4b4b4b}>{#E67E22>}由 5,184 个铜锭进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#E67E22>}合成: 3 个五重压缩铜锭{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: COPPER_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_5
+      amount: 1
+MEIRS_ITEM_YASUO_TONGDING_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}七重压缩铜锭{#E67E22<}"
+    lore:
+      - "{#4b4b4b}>{#E67E22>}由 10,368 个铜锭进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#E67E22>}合成: 2 个六重压缩铜锭{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: COPPER_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_6
+      amount: 1
+MEIRS_ITEM_YASUO_TONGDING_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}八重压缩铜锭{#E67E22<}"
+    lore:
+      - "{#4b4b4b}>{#E67E22>}由 20,736 个铜锭进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#E67E22>}合成: 2 个七重压缩铜锭{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: COPPER_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_7
+      amount: 1
+MEIRS_ITEM_YASUO_TONGDING_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}九重压缩铜锭{#E67E22<}"
+    lore:
+      - "{#4b4b4b}>{#E67E22>}由 41,472 个铜锭进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#E67E22>}合成: 2 个八重压缩铜锭{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: COPPER_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TONGDING_8
+      amount: 1
+# ----------------------------------铁锭压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_TIEDING_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}一重压缩铁锭{#EDBB99<}"
+    lore:
+      - "{#4b4b4b}>{#EDBB99>}由 9 个铁锭进行压缩而来的{#90CAF9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EDBB99>}合成: 9 个铁锭{#90CAF9<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: IRON_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: IRON_INGOT
+      amount: 1
+    2:
+      material: IRON_INGOT
+      amount: 1
+    3:
+      material: IRON_INGOT
+      amount: 1
+    4:
+      material: IRON_INGOT
+      amount: 1
+    5:
+      material: IRON_INGOT
+      amount: 1
+    6:
+      material: IRON_INGOT
+      amount: 1
+    7:
+      material: IRON_INGOT
+      amount: 1
+    8:
+      material: IRON_INGOT
+      amount: 1
+    9:
+      material: IRON_INGOT
+      amount: 1
+MEIRS_ITEM_YASUO_TIEDING_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}二重压缩铁锭{#EDBB99<}"
+    lore:
+      - "{#4b4b4b}>{#EDBB99>}由 36 个铁锭进行压缩而来的{#90CAF9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EDBB99>}合成: 4 个一重压缩铁锭{#90CAF9<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: IRON_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_1
+      amount: 1
+MEIRS_ITEM_YASUO_TIEDING_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}三重压缩铁锭{#EDBB99<}"
+    lore:
+      - "{#4b4b4b}>{#EDBB99>}由 144 个铁锭进行压缩而来的{#90CAF9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EDBB99>}合成: 4 个二重压缩铁锭{#90CAF9<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: IRON_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_2
+      amount: 1
+MEIRS_ITEM_YASUO_TIEDING_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}四重压缩铁锭{#EDBB99<}"
+    lore:
+      - "{#4b4b4b}>{#EDBB99>}由 576 个铁锭进行压缩而来的{#90CAF9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EDBB99>}合成: 4 个三重压缩铁锭{#90CAF9<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_3
+      amount: 1
+MEIRS_ITEM_YASUO_TIEDING_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}五重压缩铁锭{#EDBB99<}"
+    lore:
+      - "{#4b4b4b}>{#EDBB99>}由 1,728 个铁锭进行压缩而来的{#90CAF9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EDBB99>}合成: 3 个四重压缩铁锭{#90CAF9<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_4
+      amount: 1
+MEIRS_ITEM_YASUO_TIEDING_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}六重压缩铁锭{#EDBB99<}"
+    lore:
+      - "{#4b4b4b}>{#EDBB99>}由 5,184 个铁锭进行压缩而来的{#90CAF9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EDBB99>}合成: 3 个五重压缩铁锭{#90CAF9<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_5
+      amount: 1
+MEIRS_ITEM_YASUO_TIEDING_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}七重压缩铁锭{#EDBB99<}"
+    lore:
+      - "{#4b4b4b}>{#EDBB99>}由 10,368 个铁锭进行压缩而来的{#90CAF9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EDBB99>}合成: 2 个六重压缩铁锭{#90CAF9<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_6
+      amount: 1
+MEIRS_ITEM_YASUO_TIEDING_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}八重压缩铁锭{#EDBB99<}"
+    lore:
+      - "{#4b4b4b}>{#EDBB99>}由 20,736 个铁锭进行压缩而来的{#90CAF9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EDBB99>}合成: 2 个七重压缩铁锭{#90CAF9<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_7
+      amount: 1
+MEIRS_ITEM_YASUO_TIEDING_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}九重压缩铁锭{#EDBB99<}"
+    lore:
+      - "{#4b4b4b}>{#EDBB99>}由 41,472 个铁锭进行压缩而来的{#90CAF9<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#EDBB99>}合成: 2 个八重压缩铁锭{#90CAF9<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_TIEDING_8
+      amount: 1
+# ----------------------------------金锭压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_JINDING_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}一重压缩金锭{#F7DC6F<}"
+    lore:
+      - "{#4b4b4b}>{#F7DC6F>}由 9 个金锭进行压缩而来的{#4DB6AC<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F7DC6F>}合成: 9 个金锭{#4DB6AC<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: GOLD_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: GOLD_INGOT
+      amount: 1
+    2:
+      material: GOLD_INGOT
+      amount: 1
+    3:
+      material: GOLD_INGOT
+      amount: 1
+    4:
+      material: GOLD_INGOT
+      amount: 1
+    5:
+      material: GOLD_INGOT
+      amount: 1
+    6:
+      material: GOLD_INGOT
+      amount: 1
+    7:
+      material: GOLD_INGOT
+      amount: 1
+    8:
+      material: GOLD_INGOT
+      amount: 1
+    9:
+      material: GOLD_INGOT
+      amount: 1
+MEIRS_ITEM_YASUO_JINDING_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}二重压缩金锭{#F7DC6F<}"
+    lore:
+      - "{#4b4b4b}>{#F7DC6F>}由 36 个金锭进行压缩而来的{#4DB6AC<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F7DC6F>}合成: 4 个一重压缩金锭{#4DB6AC<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: GOLD_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_1
+      amount: 1
+MEIRS_ITEM_YASUO_JINDING_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}三重压缩金锭{#F7DC6F<}"
+    lore:
+      - "{#4b4b4b}>{#F7DC6F>}由 144 个金锭进行压缩而来的{#4DB6AC<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F7DC6F>}合成: 4 个二重压缩金锭{#4DB6AC<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: GOLD_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_2
+      amount: 1
+MEIRS_ITEM_YASUO_JINDING_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}四重压缩金锭{#F7DC6F<}"
+    lore:
+      - "{#4b4b4b}>{#F7DC6F>}由 576 个金锭进行压缩而来的{#4DB6AC<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F7DC6F>}合成: 4 个三重压缩金锭{#4DB6AC<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_3
+      amount: 1
+MEIRS_ITEM_YASUO_JINDING_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}五重压缩金锭{#F7DC6F<}"
+    lore:
+      - "{#4b4b4b}>{#F7DC6F>}由 1,728 个金锭进行压缩而来的{#4DB6AC<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F7DC6F>}合成: 3 个四重压缩金锭{#4DB6AC<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_4
+      amount: 1
+MEIRS_ITEM_YASUO_JINDING_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}六重压缩金锭{#F7DC6F<}"
+    lore:
+      - "{#4b4b4b}>{#F7DC6F>}由 5,184 个金锭进行压缩而来的{#4DB6AC<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F7DC6F>}合成: 3 个五重压缩金锭{#4DB6AC<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_5
+      amount: 1
+MEIRS_ITEM_YASUO_JINDING_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}七重压缩金锭{#F7DC6F<}"
+    lore:
+      - "{#4b4b4b}>{#F7DC6F>}由 10,368 个金锭进行压缩而来的{#4DB6AC<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F7DC6F>}合成: 2 个六重压缩金锭{#4DB6AC<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_6
+      amount: 1
+MEIRS_ITEM_YASUO_JINDING_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}八重压缩金锭{#F7DC6F<}"
+    lore:
+      - "{#4b4b4b}>{#F7DC6F>}由 20,736 个金锭进行压缩而来的{#4DB6AC<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F7DC6F>}合成: 2 个七重压缩金锭{#4DB6AC<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_7
+      amount: 1
+MEIRS_ITEM_YASUO_JINDING_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}九重压缩金锭{#F7DC6F<}"
+    lore:
+      - "{#4b4b4b}>{#F7DC6F>}由 41,472 个金锭进行压缩而来的{#4DB6AC<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F7DC6F>}合成: 2 个八重压缩金锭{#4DB6AC<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_JINDING_8
+      amount: 1
+# ----------------------------------红石压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_HOGNGSHI_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}一重压缩红石{#F44336<}"
+    lore:
+      - "{#4b4b4b}>{#F44336>}由 9 个红石进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F44336>}合成: 9 个红石{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: Redstone
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: Redstone
+      amount: 1
+    2:
+      material: Redstone
+      amount: 1
+    3:
+      material: Redstone
+      amount: 1
+    4:
+      material: Redstone
+      amount: 1
+    5:
+      material: Redstone
+      amount: 1
+    6:
+      material: Redstone
+      amount: 1
+    7:
+      material: Redstone
+      amount: 1
+    8:
+      material: Redstone
+      amount: 1
+    9:
+      material: Redstone
+      amount: 1
+MEIRS_ITEM_YASUO_HOGNGSHI_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}二重压缩红石{#F44336<}"
+    lore:
+      - "{#4b4b4b}>{#F44336>}由 36 个红石进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F44336>}合成: 4 个一重压缩红石{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: Redstone
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_1
+      amount: 1
+MEIRS_ITEM_YASUO_HOGNGSHI_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}三重压缩红石{#F44336<}"
+    lore:
+      - "{#4b4b4b}>{#F44336>}由 144 个红石进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F44336>}合成: 4 个二重压缩红石{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: Redstone
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_2
+      amount: 1
+MEIRS_ITEM_YASUO_HOGNGSHI_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}四重压缩红石{#F44336<}"
+    lore:
+      - "{#4b4b4b}>{#F44336>}由 576 个红石进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F44336>}合成: 4 个三重压缩红石{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: Redstone
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_3
+      amount: 1
+MEIRS_ITEM_YASUO_HOGNGSHI_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}五重压缩红石{#F44336<}"
+    lore:
+      - "{#4b4b4b}>{#F44336>}由 1,728 个红石进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F44336>}合成: 3 个四重压缩红石{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: Redstone
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_4
+      amount: 1
+MEIRS_ITEM_YASUO_HOGNGSHI_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}六重压缩红石{#F44336<}"
+    lore:
+      - "{#4b4b4b}>{#F44336>}由 5,184 个红石进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F44336>}合成: 3 个五重压缩红石{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: Redstone
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_5
+      amount: 1
+MEIRS_ITEM_YASUO_HOGNGSHI_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}七重压缩红石{#F44336<}"
+    lore:
+      - "{#4b4b4b}>{#F44336>}由 10,368 个红石进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F44336>}合成: 2 个六重压缩红石{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: Redstone
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_6
+      amount: 1
+MEIRS_ITEM_YASUO_HOGNGSHI_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}八重压缩红石{#F44336<}"
+    lore:
+      - "{#4b4b4b}>{#F44336>}由 20,736 个红石进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F44336>}合成: 2 个七重压缩红石{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: Redstone
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_7
+      amount: 1
+MEIRS_ITEM_YASUO_HOGNGSHI_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}九重压缩红石{#F44336<}"
+    lore:
+      - "{#4b4b4b}>{#F44336>}由 41,472 个红石进行压缩而来的{#F48FB1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#F44336>}合成: 2 个八重压缩红石{#F48FB1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: Redstone
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_HOGNGSHI_8
+      amount: 1
+# ----------------------------------钻石压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_ZUANSHI_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}一重压缩钻石{#00CCFF<}"
+    lore:
+      - "{#4b4b4b}>{#00CCFF>}由 9 个钻石进行压缩而来的{#B39DDB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#00CCFF>}合成: 9 个钻石{#B39DDB<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: DIAMOND
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: DIAMOND
+      amount: 1
+    2:
+      material: DIAMOND
+      amount: 1
+    3:
+      material: DIAMOND
+      amount: 1
+    4:
+      material: DIAMOND
+      amount: 1
+    5:
+      material: DIAMOND
+      amount: 1
+    6:
+      material: DIAMOND
+      amount: 1
+    7:
+      material: DIAMOND
+      amount: 1
+    8:
+      material: DIAMOND
+      amount: 1
+    9:
+      material: DIAMOND
+      amount: 1
+MEIRS_ITEM_YASUO_ZUANSHI_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}二重压缩钻石{#00CCFF<}"
+    lore:
+      - "{#4b4b4b}>{#00CCFF>}由 36 个钻石进行压缩而来的{#B39DDB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#00CCFF>}合成: 4 个一重压缩钻石{#B39DDB<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: DIAMOND
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_1
+      amount: 1
+MEIRS_ITEM_YASUO_ZUANSHI_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}三重压缩钻石{#00CCFF<}"
+    lore:
+      - "{#4b4b4b}>{#00CCFF>}由 144 个钻石进行压缩而来的{#B39DDB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#00CCFF>}合成: 4 个二重压缩钻石{#B39DDB<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: DIAMOND
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_2
+      amount: 1
+MEIRS_ITEM_YASUO_ZUANSHI_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}四重压缩钻石{#00CCFF<}"
+    lore:
+      - "{#4b4b4b}>{#00CCFF>}由 576 个钻石进行压缩而来的{#B39DDB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#00CCFF>}合成: 4 个三重压缩钻石{#B39DDB<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: DIAMOND
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_3
+      amount: 1
+MEIRS_ITEM_YASUO_ZUANSHI_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}五重压缩钻石{#00CCFF<}"
+    lore:
+      - "{#4b4b4b}>{#00CCFF>}由 1,728 个钻石进行压缩而来的{#B39DDB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#00CCFF>}合成: 3 个四重压缩钻石{#B39DDB<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: DIAMOND
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_4
+      amount: 1
+MEIRS_ITEM_YASUO_ZUANSHI_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}六重压缩钻石{#00CCFF<}"
+    lore:
+      - "{#4b4b4b}>{#00CCFF>}由 5,184 个钻石进行压缩而来的{#B39DDB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#00CCFF>}合成: 3 个五重压缩钻石{#B39DDB<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: DIAMOND
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_5
+      amount: 1
+MEIRS_ITEM_YASUO_ZUANSHI_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}七重压缩钻石{#00CCFF<}"
+    lore:
+      - "{#4b4b4b}>{#00CCFF>}由 10,368 个钻石进行压缩而来的{#B39DDB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#00CCFF>}合成: 2 个六重压缩钻石{#B39DDB<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: DIAMOND
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_6
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_6
+      amount: 1
+MEIRS_ITEM_YASUO_ZUANSHI_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}八重压缩钻石{#00CCFF<}"
+    lore:
+      - "{#4b4b4b}>{#00CCFF>}由 20,736 个钻石进行压缩而来的{#B39DDB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#00CCFF>}合成: 2 个七重压缩钻石{#B39DDB<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: DIAMOND
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_7
+      amount: 1
+MEIRS_ITEM_YASUO_ZUANSHI_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}九重压缩钻石{#00CCFF<}"
+    lore:
+      - "{#4b4b4b}>{#00CCFF>}由 41,472 个钻石进行压缩而来的{#B39DDB<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#00CCFF>}合成: 2 个八重压缩钻石{#B39DDB<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: DIAMOND
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_ZUANSHI_8
+      amount: 1
+# ----------------------------------绿宝石压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_LVBAOSHI_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}一重压缩绿宝石{#2ECC71<}"
+    lore:
+      - "{#4b4b4b}>{#2ECC71>}由 9 个绿宝石进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#2ECC71>}合成: 9 个绿宝石{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: emerald
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: emerald
+      amount: 1
+    2:
+      material: emerald
+      amount: 1
+    3:
+      material: emerald
+      amount: 1
+    4:
+      material: emerald
+      amount: 1
+    5:
+      material: emerald
+      amount: 1
+    6:
+      material: emerald
+      amount: 1
+    7:
+      material: emerald
+      amount: 1
+    8:
+      material: emerald
+      amount: 1
+    9:
+      material: Redstone
+      amount: 1
+MEIRS_ITEM_YASUO_LVBAOSHI_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}二重压缩绿宝石{#2ECC71<}"
+    lore:
+      - "{#4b4b4b}>{#2ECC71>}由 36 个绿宝石进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#2ECC71>}合成: 4 个一重压缩绿宝石{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: emerald
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_1
+      amount: 1
+MEIRS_ITEM_YASUO_LVBAOSHI_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}三重压缩绿宝石{#2ECC71<}"
+    lore:
+      - "{#4b4b4b}>{#2ECC71>}由 144 个绿宝石进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#2ECC71>}合成: 4 个二重压缩绿宝石{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: emerald
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_2
+      amount: 1
+MEIRS_ITEM_YASUO_LVBAOSHI_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}四重压缩绿宝石{#2ECC71<}"
+    lore:
+      - "{#4b4b4b}>{#2ECC71>}由 576 个绿宝石进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#2ECC71>}合成: 4 个三重压缩绿宝石{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: emerald
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_3
+      amount: 1
+MEIRS_ITEM_YASUO_LVBAOSHI_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}五重压缩绿宝石{#2ECC71<}"
+    lore:
+      - "{#4b4b4b}>{#2ECC71>}由 1,728 个绿宝石进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#2ECC71>}合成: 3 个四重压缩绿宝石{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: emerald
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_4
+      amount: 1
+MEIRS_ITEM_YASUO_LVBAOSHI_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}六重压缩绿宝石{#2ECC71<}"
+    lore:
+      - "{#4b4b4b}>{#2ECC71>}由 5,184 个绿宝石进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#2ECC71>}合成: 3 个五重压缩绿宝石{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: emerald
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_5
+      amount: 1
+MEIRS_ITEM_YASUO_LVBAOSHI_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}七重压缩绿宝石{#2ECC71<}"
+    lore:
+      - "{#4b4b4b}>{#2ECC71>}由 10,368 个绿宝石进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#2ECC71>}合成: 2 个六重压缩绿宝石{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: emerald
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_6
+      amount: 1
+MEIRS_ITEM_YASUO_LVBAOSHI_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}八重压缩绿宝石{#2ECC71<}"
+    lore:
+      - "{#4b4b4b}>{#2ECC71>}由 20,736 个绿宝石进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#2ECC71>}合成: 2 个七重压缩绿宝石{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: emerald
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_7
+      amount: 1
+MEIRS_ITEM_YASUO_LVBAOSHI_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}九重压缩绿宝石{#2ECC71<}"
+    lore:
+      - "{#4b4b4b}>{#2ECC71>}由 41,472 个绿宝石进行压缩而来的{#4DD0E1<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#2ECC71>}合成: 2 个八重压缩绿宝石{#4DD0E1<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: emerald
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_LVBAOSHI_8
+      amount: 1
+# ----------------------------------下界合金锭压缩 1-9------------------------------------ #
+MEIRS_ITEM_YASUO_XIAJIEHEJINDING_1:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}一重压缩下界合金{#616A6B<}"
+    lore:
+      - "{#4b4b4b}>{#616A6B>}由 9 个下界合金进行压缩而来的{#C5E1A5<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#616A6B>}合成: 9 个下界合金{#C5E1A5<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: NETHERITE_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: NETHERITE_INGOT
+      amount: 1
+    2:
+      material: NETHERITE_INGOT
+      amount: 1
+    3:
+      material: NETHERITE_INGOT
+      amount: 1
+    4:
+      material: NETHERITE_INGOT
+      amount: 1
+    5:
+      material: NETHERITE_INGOT
+      amount: 1
+    6:
+      material: NETHERITE_INGOT
+      amount: 1
+    7:
+      material: NETHERITE_INGOT
+      amount: 1
+    8:
+      material: NETHERITE_INGOT
+      amount: 1
+    9:
+      material: NETHERITE_INGOT
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIEHEJINDING_2:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}二重压缩下界合金{#616A6B<}"
+    lore:
+      - "{#4b4b4b}>{#616A6B>}由 36 个下界合金进行压缩而来的{#C5E1A5<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#616A6B>}合成: 4 个一重压缩下界合金{#C5E1A5<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: NETHERITE_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_1
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIEHEJINDING_3:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}三重压缩下界合金{#616A6B<}"
+    lore:
+      - "{#4b4b4b}>{#616A6B>}由 144 个下界合金进行压缩而来的{#C5E1A5<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#616A6B>}合成: 4 个二重压缩下界合金{#C5E1A5<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: NETHERITE_INGOT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_2
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIEHEJINDING_4:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}四重压缩下界合金{#616A6B<}"
+    lore:
+      - "{#4b4b4b}>{#616A6B>}由 576 个下界合金进行压缩而来的{#C5E1A5<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#616A6B>}合成: 4 个三重压缩下界合金{#C5E1A5<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: NETHERITE_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_3
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIEHEJINDING_5:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}五重压缩下界合金{#616A6B<}"
+    lore:
+      - "{#4b4b4b}>{#616A6B>}由 1,728 个下界合金进行压缩而来的{#C5E1A5<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#616A6B>}合成: 3 个四重压缩下界合金{#C5E1A5<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: NETHERITE_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_4
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_4
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_4
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIEHEJINDING_6:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}六重压缩下界合金{#616A6B<}"
+    lore:
+      - "{#4b4b4b}>{#616A6B>}由 5,184 个下界合金进行压缩而来的{#C5E1A5<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#616A6B>}合成: 3 个五重压缩下界合金{#C5E1A5<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: NETHERITE_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_5
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIEHEJINDING_7:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}七重压缩下界合金{#616A6B<}"
+    lore:
+      - "{#4b4b4b}>{#616A6B>}由 10,368 个下界合金进行压缩而来的{#C5E1A5<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#616A6B>}合成: 2 个六重压缩下界合金{#C5E1A5<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: NETHERITE_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_6
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_6
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIEHEJINDING_8:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}八重压缩下界合金{#616A6B<}"
+    lore:
+      - "{#4b4b4b}>{#616A6B>}由 20,736 个下界合金进行压缩而来的{#C5E1A5<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#616A6B>}合成: 2 个七重压缩下界合金{#C5E1A5<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: NETHERITE_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_7
+      amount: 1
+MEIRS_ITEM_YASUO_XIAJIEHEJINDING_9:
+  item_group: meirs_sub_yasuo
+  item:
+    name: "{#EEEEEE>}九重压缩下界合金{#616A6B<}"
+    lore:
+      - "{#4b4b4b}>{#616A6B>}由 41,472 个下界合金进行压缩而来的{#C5E1A5<}{#4b4b4b}<"
+      - "{#4b4b4b}>{#616A6B>}合成: 2 个八重压缩下界合金{#C5E1A5<}{#4b4b4b}<"
+      - " "
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#CCCCFF>}压缩物品{#CC33FF<}{#4b4b4b})"
+    material: NETHERITE_INGOT
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_8
+      amount: 1
 # ----------------------------------压缩钢 1------------------------------------ #
 MEIRS_ITEM_YASUO_GANGKUAI_1:
   item_group: meirs_sub_wuping
@@ -954,7 +3332,7 @@ MEIRS_DIAN_NENGCHUCUNMOKUAI_1:
       material: MEIRS_MOKUAI_1
       amount: 1
     2:
-      material_type: saveditem
+      material_type: slimefun
       material: MEIRS_CAPACITOR_JICHUDIANRONG
       amount: 1
     3:
@@ -1122,3 +3500,4 @@ MEIRS_SHENG_CHAN_MOKUAI_4:
       material_type: slimefun
       material: MEIRS_MOKUAI_4
       amount: 1
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^机器生产模块------------------------------------ #

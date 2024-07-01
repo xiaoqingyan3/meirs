@@ -19,7 +19,7 @@ MEIRS_MATERIAL_GENERATOR_1:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 MEIRS_MEITAN_SHENGCHANQI_1:
-  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#FAFAFA}I"
   slots:
     0-3:
       name: "&a"
@@ -31,8 +31,8 @@ MEIRS_MEITAN_SHENGCHANQI_1:
     16-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-MEIRS_QINGJINSHI_SHENGCHANQI:
-  title: "{#0066FF>}青金石{#0000FF<}{#3498DB>}生产器{#85C1E9<} {#F3E5F5}I"
+MEIRS_QINGJINSHI_SHENGCHANQI_1:
+  title: "{#0066FF>}青金石{#0000FF<}{#3498DB>}生产器{#85C1E9<} {#E1F5FE}I"
   slots:
     0-3:
       name: "&a"
@@ -44,8 +44,8 @@ MEIRS_QINGJINSHI_SHENGCHANQI:
     16-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-MEIRS_XIAJIESHIYING_SHENGCHANQI:
-  title: "{#E0E0E0>}下界石英{#FAFAFA<}{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+MEIRS_XIAJIESHIYING_SHENGCHANQI_1:
+  title: "{#E0E0E0>}下界石英{#FAFAFA<}{#3498DB>}生产器{#85C1E9<} {#F1F8E9}I"
   slots:
     0-3:
       name: "&a"
@@ -57,8 +57,8 @@ MEIRS_XIAJIESHIYING_SHENGCHANQI:
     16-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-MEIRS_ZISHUIJING_SHENGCHANQI:
-  title: "{#9C27B0>}紫水晶{#BA68C8<}{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+MEIRS_ZISHUIJING_SHENGCHANQI_1:
+  title: "{#9C27B0>}紫水晶{#BA68C8<}{#3498DB>}生产器{#85C1E9<} {#F3E5F5}I"
   slots:
     0-3:
       name: "&a"
@@ -70,8 +70,8 @@ MEIRS_ZISHUIJING_SHENGCHANQI:
     16-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-MEIRS_TONGDING_SHENGCANJIQI:
-  title: "{#EB984E>}铜锭{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+MEIRS_TONGDING_SHENGCANJIQI_1:
+  title: "{#EB984E>}铜锭{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#FBEEE6}I"
   slots:
     0-3:
       name: "&a"
@@ -83,8 +83,8 @@ MEIRS_TONGDING_SHENGCANJIQI:
     16-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-MEIRS_TIEKUANG_SHENGCANJIQI:
-  title: "{#EDBB99}铁锭{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+MEIRS_TIEKUANG_SHENGCANJIQI_1:
+  title: "{#EDBB99}铁锭{#3498DB>}生产器{#85C1E9<} {#FAD7A0}I"
   slots:
     0-3:
       name: "&a"
@@ -96,8 +96,8 @@ MEIRS_TIEKUANG_SHENGCANJIQI:
     16-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-MEIRS_JINDING_SHENGCANJIQI:
-  title: "{#F7DC6F>}金锭{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+MEIRS_JINDING_SHENGCANJIQI_1:
+  title: "{#F7DC6F>}金锭{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#FCF3CF}I"
   slots:
     0-3:
       name: "&a"
@@ -109,8 +109,8 @@ MEIRS_JINDING_SHENGCANJIQI:
     16-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-MEIRS_ZUANSHIKUANG_SHENGCANJIQI:
-  title: "{#00CCFF}钻石{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+MEIRS_HONGSHI_SHENGCANJIQI_1:
+  title: "{#F44336}红石{#3498DB>}生产器{#85C1E9<} {#FADBD8}I"
   slots:
     0-3:
       name: "&a"
@@ -122,7 +122,33 @@ MEIRS_ZUANSHIKUANG_SHENGCANJIQI:
     16-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-MEIRS_XIAJIEHEJINDING_SHENGCANJIQI:
+MEIRS_ZUANSHIKUANG_SHENGCANJIQI_1:
+  title: "{#00CCFF}钻石{#3498DB>}生产器{#85C1E9<} {#D6EAF8}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_LVBAOSHI_SHENGCANJIQI_1:
+  title: "{#2ECC71}绿宝石{#3498DB>}生产器{#85C1E9<} {#D5F5E3}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIEHEJINDING_SHENGCANJIQI_1:
   title: "{#17202A>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
   slots:
     0-3:
@@ -151,7 +177,137 @@ MEIRS_MATERIAL_GENERATOR_2:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 MEIRS_MEITAN_SHENGCHANQI_2:
-  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}II"
+  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#F5F5F5}II"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-9:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_QINGJINSHI_SHENGCHANQI_2:
+  title: "{#0066FF>}青金石{#0000FF<}{#3498DB>}生产器{#85C1E9<} {#B3E5FC}II"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-9:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIESHIYING_SHENGCHANQI_2:
+  title: "{#E0E0E0>}下界石英{#FAFAFA<}{#3498DB>}生产器{#85C1E9<} {#DCEDC8}II"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-9:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZISHUIJING_SHENGCHANQI_2:
+  title: "{#9C27B0>}紫水晶{#BA68C8<}{#3498DB>}生产器{#85C1E9<} {#E1BEE7}II"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-9:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TONGDING_SHENGCANJIQI_2:
+  title: "{#EB984E>}铜锭{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#F6DDCC}II"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-9:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TIEKUANG_SHENGCANJIQI_2:
+  title: "{#EDBB99}铁锭{#3498DB>}生产器{#85C1E9<} {#F8C471}II"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-9:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_JINDING_SHENGCANJIQI_2:
+  title: "{#F7DC6F>}金锭{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#F9E79F}II"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-9:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_HONGSHI_SHENGCANJIQI_2:
+  title: "{#F44336}红石{#3498DB>}生产器{#85C1E9<} {#F5B7B1}II"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-9:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZUANSHIKUANG_SHENGCANJIQI_2:
+  title: "{#00CCFF}钻石{#3498DB>}生产器{#85C1E9<} {#AED6F1}II"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-9:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_LVBAOSHI_SHENGCANJIQI_2:
+  title: "{#2ECC71}绿宝石{#3498DB>}生产器{#85C1E9<} {#ABEBC6}II"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-9:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIEHEJINDING_SHENGCANJIQI_2:
+  title: "{#17202A>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}II"
   slots:
     0-3:
       name: "&a"
@@ -179,7 +335,137 @@ MEIRS_MATERIAL_GENERATOR_3:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 MEIRS_MEITAN_SHENGCHANQI_3:
-  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}III"
+  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#EEEEEE}III"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_QINGJINSHI_SHENGCHANQI_3:
+  title: "{#0066FF>}青金石{#0000FF<}{#3498DB>}生产器{#85C1E9<} {#81D4FA}III"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIESHIYING_SHENGCHANQI_3:
+  title: "{#E0E0E0>}下界石英{#FAFAFA<}{#3498DB>}生产器{#85C1E9<} {#C5E1A5}III"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZISHUIJING_SHENGCHANQI_3:
+  title: "{#9C27B0>}紫水晶{#BA68C8<}{#3498DB>}生产器{#85C1E9<} {#CE93D8}III"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TONGDING_SHENGCANJIQI_3:
+  title: "{#EB984E>}铜锭{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#EDBB99}III"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TIEKUANG_SHENGCANJIQI_3:
+  title: "{#EDBB99}铁锭{#3498DB>}生产器{#85C1E9<} {#F5B041}III"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_JINDING_SHENGCANJIQI_3:
+  title: "{#F7DC6F>}金锭{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#F7DC6F}III"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_HONGSHI_SHENGCANJIQI_3:
+  title: "{#F44336}红石{#3498DB>}生产器{#85C1E9<} {#F1948A}III"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZUANSHIKUANG_SHENGCANJIQI_3:
+  title: "{#00CCFF}钻石{#3498DB>}生产器{#85C1E9<} {#85C1E9}III"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_LVBAOSHI_SHENGCANJIQI_3:
+  title: "{#2ECC71}绿宝石{#3498DB>}生产器{#85C1E9<} {#82E0AA}III"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIEHEJINDING_SHENGCANJIQI_3:
+  title: "{#17202A>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}III"
   slots:
     0-3:
       name: "&a"
@@ -210,7 +496,167 @@ MEIRS_MATERIAL_GENERATOR_4:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 MEIRS_MEITAN_SHENGCHANQI_4:
-  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}IV"
+  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#E0E0E0}IV"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-20:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    24-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_QINGJINSHI_SHENGCHANQI_4:
+  title: "{#0066FF>}青金石{#0000FF<}{#3498DB>}生产器{#85C1E9<} {#4FC3F7}IV"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-20:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    24-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIESHIYING_SHENGCHANQI_4:
+  title: "{#E0E0E0>}下界石英{#FAFAFA<}{#3498DB>}生产器{#85C1E9<} {#AED581}IV"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-20:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    24-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZISHUIJING_SHENGCHANQI_4:
+  title: "{#9C27B0>}紫水晶{#BA68C8<}{#3498DB>}生产器{#85C1E9<} {#BA68C8}IV"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-20:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    24-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TONGDING_SHENGCANJIQI_4:
+  title: "{#EB984E>}铜锭{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#E59866}IV"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-20:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    24-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TIEKUANG_SHENGCANJIQI_4:
+  title: "{#EDBB99}铁锭{#3498DB>}生产器{#85C1E9<} {#F39C12}IV"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-20:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    24-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_JINDING_SHENGCANJIQI_4:
+  title: "{#F7DC6F>}金锭{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#F4D03F}IV"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-20:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    24-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_HONGSHI_SHENGCANJIQI_4:
+  title: "{#F44336}红石{#3498DB>}生产器{#85C1E9<} {#EC7063}IV"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-20:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    24-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZUANSHIKUANG_SHENGCANJIQI_4:
+  title: "{#00CCFF}钻石{#3498DB>}生产器{#85C1E9<} {#5DADE2}IV"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-20:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    24-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_LVBAOSHI_SHENGCANJIQI_4:
+  title: "{#2ECC71}绿宝石{#3498DB>}生产器{#85C1E9<} {#58D68D}IV"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    18-20:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    24-26:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIEHEJINDING_SHENGCANJIQI_4:
+  title: "{#17202A>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}IV"
   slots:
     0-3:
       name: "&a"
@@ -241,7 +687,137 @@ MEIRS_MATERIAL_GENERATOR_5:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 MEIRS_MEITAN_SHENGCHANQI_5:
-  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}V"
+  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#BDBDBD}V"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_QINGJINSHI_SHENGCHANQI_5:
+  title: "{#0066FF>}青金石{#0000FF<}{#3498DB>}生产器{#85C1E9<} {#29B6F6}V"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIESHIYING_SHENGCHANQI_5:
+  title: "{#E0E0E0>}下界石英{#FAFAFA<}{#3498DB>}生产器{#85C1E9<} {#9CCC65}V"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZISHUIJING_SHENGCHANQI_5:
+  title: "{#9C27B0>}紫水晶{#BA68C8<}{#3498DB>}生产器{#85C1E9<} {#AB47BC}V"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TONGDING_SHENGCANJIQI_5:
+  title: "{#EB984E>}铜锭{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#DC7633}V"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TIEKUANG_SHENGCANJIQI_5:
+  title: "{#EDBB99}铁锭{#3498DB>}生产器{#85C1E9<} {#D68910}V"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_JINDING_SHENGCANJIQI_5:
+  title: "{#F7DC6F>}金锭{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#F1C40F}V"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_HONGSHI_SHENGCANJIQI_5:
+  title: "{#F44336}红石{#3498DB>}生产器{#85C1E9<} {#E74C3C}V"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZUANSHIKUANG_SHENGCANJIQI_5:
+  title: "{#00CCFF}钻石{#3498DB>}生产器{#85C1E9<} {#3498DB}V"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_LVBAOSHI_SHENGCANJIQI_5:
+  title: "{#2ECC71}绿宝石{#3498DB>}生产器{#85C1E9<} {#2ECC71}V"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIEHEJINDING_SHENGCANJIQI_5:
+  title: "{#17202A>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}V"
   slots:
     0-3:
       name: "&a"
@@ -272,7 +848,167 @@ MEIRS_MATERIAL_GENERATOR_6:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 MEIRS_MEITAN_SHENGCHANQI_6:
-  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}VI"
+  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#9E9E9E}VI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    33-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_QINGJINSHI_SHENGCHANQI_6:
+  title: "{#0066FF>}青金石{#0000FF<}{#3498DB>}生产器{#85C1E9<} {#03A9F4}VI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    33-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIESHIYING_SHENGCHANQI_6:
+  title: "{#E0E0E0>}下界石英{#FAFAFA<}{#3498DB>}生产器{#85C1E9<} {#8BC34A}VI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    33-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZISHUIJING_SHENGCHANQI_6:
+  title: "{#9C27B0>}紫水晶{#BA68C8<}{#3498DB>}生产器{#85C1E9<} {#9C27B0}VI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    33-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TONGDING_SHENGCANJIQI_6:
+  title: "{#EB984E>}铜锭{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#D35400}VI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    33-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TIEKUANG_SHENGCANJIQI_6:
+  title: "{#EDBB99}铁锭{#3498DB>}生产器{#85C1E9<} {#B9770E}VI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    33-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_JINDING_SHENGCANJIQI_6:
+  title: "{#F7DC6F>}金锭{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#D4AC0D}VI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    33-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_HONGSHI_SHENGCANJIQI_6:
+  title: "{#F44336}红石{#3498DB>}生产器{#85C1E9<} {#CB4335}VI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    33-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZUANSHIKUANG_SHENGCANJIQI_6:
+  title: "{#00CCFF}钻石{#3498DB>}生产器{#85C1E9<} {#2E86C1}VI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    33-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_LVBAOSHI_SHENGCANJIQI_6:
+  title: "{#2ECC71}绿宝石{#3498DB>}生产器{#85C1E9<} {#28B463}VI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    33-35:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIEHEJINDING_SHENGCANJIQI_6:
+  title: "{#17202A>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}VI"
   slots:
     0-3:
       name: "&a"
@@ -306,7 +1042,167 @@ MEIRS_MATERIAL_GENERATOR_7:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 MEIRS_MEITAN_SHENGCHANQI_7:
-  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}VII"
+  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#757575}VII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36-38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    42-44:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_QINGJINSHI_SHENGCHANQI_7:
+  title: "{#0066FF>}青金石{#0000FF<}{#3498DB>}生产器{#85C1E9<} {#039BE5}VII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36-38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    42-44:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIESHIYING_SHENGCHANQI_7:
+  title: "{#E0E0E0>}下界石英{#FAFAFA<}{#3498DB>}生产器{#85C1E9<} {#7CB342}VII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36-38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    42-44:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZISHUIJING_SHENGCHANQI_7:
+  title: "{#9C27B0>}紫水晶{#BA68C8<}{#3498DB>}生产器{#85C1E9<} {#8E24AA}VII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36-38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    42-44:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TONGDING_SHENGCANJIQI_7:
+  title: "{#EB984E>}铜锭{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#BA4A00}VII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36-38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    42-44:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TIEKUANG_SHENGCANJIQI_7:
+  title: "{#EDBB99}铁锭{#3498DB>}生产器{#85C1E9<} {#9C640C}VII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36-38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    42-44:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_JINDING_SHENGCANJIQI_7:
+  title: "{#F7DC6F>}金锭{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#B7950B}VII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36-38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    42-44:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_HONGSHI_SHENGCANJIQI_7:
+  title: "{#F44336}红石{#3498DB>}生产器{#85C1E9<} {#B03A2E}VII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36-38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    42-44:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZUANSHIKUANG_SHENGCANJIQI_7:
+  title: "{#00CCFF}钻石{#3498DB>}生产器{#85C1E9<} {#2874A6}VII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36-38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    42-44:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_LVBAOSHI_SHENGCANJIQI_7:
+  title: "{#2ECC71}绿宝石{#3498DB>}生产器{#85C1E9<} {#239B56}VII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36-38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    42-44:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIEHEJINDING_SHENGCANJIQI_7:
+  title: "{#17202A>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}VII"
   slots:
     0-3:
       name: "&a"
@@ -340,7 +1236,167 @@ MEIRS_MATERIAL_GENERATOR_8:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 MEIRS_MEITAN_SHENGCHANQI_8:
-  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}VIII"
+  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#616161}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    51-53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_QINGJINSHI_SHENGCHANQI_8:
+  title: "{#0066FF>}青金石{#0000FF<}{#3498DB>}生产器{#85C1E9<} {#0288D1}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    51-53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIESHIYING_SHENGCHANQI_8:
+  title: "{#E0E0E0>}下界石英{#FAFAFA<}{#3498DB>}生产器{#85C1E9<} {#689F38}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    51-53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZISHUIJING_SHENGCHANQI_8:
+  title: "{#9C27B0>}紫水晶{#BA68C8<}{#3498DB>}生产器{#85C1E9<} {#7B1FA2}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    51-53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TONGDING_SHENGCANJIQI_8:
+  title: "{#EB984E>}铜锭{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#A04000}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    51-53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TIEKUANG_SHENGCANJIQI_8:
+  title: "{#EDBB99}铁锭{#3498DB>}生产器{#85C1E9<} {#7E5109}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    51-53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_JINDING_SHENGCANJIQI_8:
+  title: "{#F7DC6F>}金锭{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#9A7D0A}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    51-53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_HONGSHI_SHENGCANJIQI_8:
+  title: "{#F44336}红石{#3498DB>}生产器{#85C1E9<} {#943126}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    51-53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZUANSHIKUANG_SHENGCANJIQI_8:
+  title: "{#00CCFF}钻石{#3498DB>}生产器{#85C1E9<} {#21618C}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    51-53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_LVBAOSHI_SHENGCANJIQI_8:
+  title: "{#2ECC71}绿宝石{#3498DB>}生产器{#85C1E9<} {#1D8348}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    51-53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIEHEJINDING_SHENGCANJIQI_8:
+  title: "{#17202A>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}VIII"
   slots:
     0-3:
       name: "&a"
@@ -356,7 +1412,7 @@ MEIRS_MEITAN_SHENGCHANQI_8:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 
-# ----------------------------------矿物生产机器列表(VIII)------------------------------------ #
+# ----------------------------------矿物生产机器列表(IX)------------------------------------ #
 MEIRS_MATERIAL_GENERATOR_9:
   title: "{#99A3A4>}圆石{#AAB7B8<}{#3498DB>}生产器{#85C1E9<} {#6A1B9A}IX"
   slots:
@@ -371,7 +1427,7 @@ MEIRS_MATERIAL_GENERATOR_9:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
 MEIRS_MEITAN_SHENGCHANQI_9:
-  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#00FF99}IX"
+  title: "{#212121}煤炭{#3498DB>}生产器{#85C1E9<} {#424242}IX"
   slots:
     0-3:
       name: "&a"
@@ -383,9 +1439,140 @@ MEIRS_MEITAN_SHENGCHANQI_9:
     53:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
+MEIRS_QINGJINSHI_SHENGCHANQI_9:
+  title: "{#0066FF>}青金石{#0000FF<}{#3498DB>}生产器{#85C1E9<} {#0277BD}IX"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIESHIYING_SHENGCHANQI_9:
+  title: "{#E0E0E0>}下界石英{#FAFAFA<}{#3498DB>}生产器{#85C1E9<} {#558B2F}IX"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZISHUIJING_SHENGCHANQI_9:
+  title: "{#9C27B0>}紫水晶{#BA68C8<}{#3498DB>}生产器{#85C1E9<} {#6A1B9A}VIII"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TONGDING_SHENGCANJIQI_9:
+  title: "{#EB984E>}铜锭{#E67E22<}{#3498DB>}生产器{#85C1E9<} {#873600}IX"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_TIEKUANG_SHENGCANJIQI_9:
+  title: "{#EDBB99}铁锭{#3498DB>}生产器{#85C1E9<} {#7E5109}IX"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_JINDING_SHENGCANJIQI_9:
+  title: "{#F7DC6F>}金锭{#F4D03F<}{#3498DB>}生产器{#85C1E9<} {#7D6608}IX"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_HONGSHI_SHENGCANJIQI_9:
+  title: "{#F44336}红石{#3498DB>}生产器{#85C1E9<} {#78281F}IX"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_ZUANSHIKUANG_SHENGCANJIQI_9:
+  title: "{#00CCFF}钻石{#3498DB>}生产器{#85C1E9<} {#1B4F72}IX"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_LVBAOSHI_SHENGCANJIQI_9:
+  title: "{#2ECC71}绿宝石{#3498DB>}生产器{#85C1E9<} {#186A3B}IX"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_XIAJIEHEJINDING_SHENGCANJIQI_9:
+  title: "{#17202A>}下界合金锭{#273746<}{#3498DB>}生产器{#85C1E9<} {#00FF99}IX"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-8:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    53:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+
 # ----------------------------------木头生产机器列表(I)------------------------------------ #
 MEIRS_MUTO_SHENGCANJIQI_1:
-  title: "{#BCAAA4>}木头{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  title: "{#BCAAA4}木头{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
   slots:
     0-3:
       name: "&a"
@@ -397,7 +1584,137 @@ MEIRS_MUTO_SHENGCANJIQI_1:
     16-17:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
-
+MEIRS_BAIHUAMUTO_SHENGCANJIQI_1:
+  title: "{#E5E7E9}白桦木{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_YUNSHANMUTO_SHENGCANJIQI_1:
+  title: "{#795548}云杉木{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_CONGLINMUTO_SHENGCANJIQI_1:
+  title: "{#8D6E63}丛林木{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_SHENGSEMUTO_SHENGCANJIQI_1:
+  title: "{#6D4C41}深色橡木{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_JINHEHUANMUTO_SHENGCANJIQI_1:
+  title: "{#F1948A}金合欢木{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_HONGSHUMUTO_SHENGCANJIQI_1:
+  title: "{#C0392B}红树木{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_YINGHUAMUTO_SHENGCANJIQI_1:
+  title: "{#FFCDD2}樱花木{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_GUIYIJUNBINGMUTO_SHENGCANJIQI_1:
+  title: "{#5499C7}诡异菌柄{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+MEIRS_FEIHONGJUNBINGMUTO_SHENGCANJIQI_1:
+  title: "{#F06292}绯红菌柄{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+# ----------------------------------建筑生产机器列表(I)------------------------------------ #
+MEIRS_BOLI_SHENGCHANJIQI_1:
+  title: "{#F2F3F4}玻璃{#3498DB>}生产器{#85C1E9<} {#00FF99}I"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    #注意，不推荐在第4格放置物品，因为这已经设置成了用来展示信息的位置
+    5-10:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    16-17:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
 #----------------------------------粘液生产机器列表(I)------------------------------------ #
 MEIRS_TIEKUANGFEN_SHENGCANJIQI:
   title: "{#EDBB99}铁粉{#3498DB>}生产器{#85C1E9<} {#FFECB3}I"
@@ -603,6 +1920,25 @@ JIANDAN_YA_SUO_QI:
       material: GREEN_STAINED_GLASS_PANE
       progressbar: true
     40:
+      name: "&a合成:"
+      lore:
+        - "&c↑ 上方&f放入物品"
+        - "&e下方&f输出成品 &e↓"
+      material: RED_STAINED_GLASS_PANE
+MEIRS_ZHIWU_PEIYU_CANG:
+  title: "{#85C1E9>}植物培育仓{#7FB3D5<} {#BBDEFB}初级"
+  slots:
+    9-12:
+      name: "{#C39BD3>}上方放材料,下方输出成品.{#AF7AC5<}"
+      material: GLASS_PANE
+    14-17:
+      name: "{#C39BD3>}上方放材料,下方输出成品.{#AF7AC5<}"
+      material: GLASS_PANE
+    13:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    49:
       name: "&a合成:"
       lore:
         - "&c↑ 上方&f放入物品"

@@ -3,6 +3,15 @@ meirs_parent_group:
   item:
     name: "{#4FC3F7>}简单机器-测试版{#7E57C2<}{#4b4b4b}(meirs)"
     material: IRON_BLOCK
+meirs_sub_yuanban_jian_zhu_fangkuai:
+  type: "sub"
+  parent: "meirs_parent_group"
+  item:
+    name: '{#D1C4E9>}原版建筑生产机器{#F8BBD0<}'
+    material-type: skull_hash
+    material: GRASS_BLOCK
+    lore:
+      - "&a?"
 meirs_sub_muto:
   type: "sub"
   parent: "meirs_parent_group"

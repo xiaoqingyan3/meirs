@@ -1,3 +1,714 @@
+#----------------------------------染料机列表(初级)------------------------------------ #
+MEIRS_ZHIWU_PEIYU_CANG:
+  item_group: meirs_sub_jiqi
+  item:
+    name: "{#85C1E9>}种植培育仓{#7FB3D5<} {#BBDEFB}I"
+    lore:
+      - "{#4b4b4b}>{#82E0AA>}植物与食物在培育仓种植生产{#AED6F1<}{#4b4b4b}<"
+      - ""
+      - "{#F8BBD0>}初级 机器{#90CAF9<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}100{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}速度: 4x{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 5{#FF0000<} {#FFFFCC}J"
+      - ""
+      - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#A9CCE3}机器{#4b4b4b})"
+    material: LIME_STAINED_GLASS
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: GOLD_24K
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MEIRS_ITEM_KUANG_JIA_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+  capacity: 100
+  input: [ 0,1,2,3,4,5,6,7,8 ]
+  output: [ 18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,50,51,52,53 ]
+  energyPerCraft: 5
+  speed: 4
+  recipes:
+    蒲公英:
+      seconds: 2
+      input:
+        1:
+          material: DANDELION
+          amount: 1
+      output:
+        1:
+          material: DANDELION
+          amount: 4
+    铃兰:
+      seconds: 2
+      input:
+        1:
+          material: LILY_OF_THE_VALLEY
+          amount: 1
+      output:
+        1:
+          material: LILY_OF_THE_VALLEY
+          amount: 4
+    矢车菊:
+      seconds: 2
+      input:
+        1:
+          material: CORNFLOWER
+          amount: 1
+      output:
+        1:
+          material: CORNFLOWER
+          amount: 4
+    虞美人:
+      seconds: 2
+      input:
+        1:
+          material: POPPY
+          amount: 1
+      output:
+        1:
+          material: POPPY
+          amount: 4
+    兰花:
+      seconds: 2
+      input:
+        1:
+          material: BLUE_ORCHID
+          amount: 1
+      output:
+        1:
+          material: BLUE_ORCHID
+          amount: 4
+    绒球葱:
+      seconds: 2
+      input:
+        1:
+          material: ALLIUM
+          amount: 1
+      output:
+        1:
+          material: ALLIUM
+          amount: 4
+    蓝花美耳草:
+      seconds: 2
+      input:
+        1:
+          material: AZURE_BLUET
+          amount: 1
+      output:
+        1:
+          material: AZURE_BLUET
+          amount: 4
+    红色郁金香:
+      seconds: 2
+      input:
+        1:
+          material: RED_TULIP
+          amount: 1
+      output:
+        1:
+          material: RED_TULIP
+          amount: 4
+    橙色郁金香:
+      seconds: 2
+      input:
+        1:
+          material: ORANGE_TULIP
+          amount: 1
+      output:
+        1:
+          material: ORANGE_TULIP
+          amount: 4
+    白色郁金香:
+      seconds: 2
+      input:
+        1:
+          material: WHITE_TULIP
+          amount: 1
+      output:
+        1:
+          material: WHITE_TULIP
+          amount: 4
+    粉红色郁金香:
+      seconds: 2
+      input:
+        1:
+          material: PINK_TULIP
+          amount: 1
+      output:
+        1:
+          material: PINK_TULIP
+          amount: 4
+    滨菊:
+      seconds: 2
+      input:
+        1:
+          material: OXEYE_DAISY
+          amount: 1
+      output:
+        1:
+          material: OXEYE_DAISY
+          amount: 4
+    向日葵:
+      seconds: 2
+      input:
+        1:
+          material: SUNFLOWER
+          amount: 1
+      output:
+        1:
+          material: SUNFLOWER
+          amount: 4
+    丁香:
+      seconds: 2
+      input:
+        1:
+          material: LILAC
+          amount: 1
+      output:
+        1:
+          material: LILAC
+          amount: 4
+    玫瑰丛:
+      seconds: 2
+      input:
+        1:
+          material: ROSE_BUSH
+          amount: 1
+      output:
+        1:
+          material: ROSE_BUSH
+          amount: 4
+    牡丹:
+      seconds: 2
+      input:
+        1:
+          material: PEONY
+          amount: 1
+      output:
+        1:
+          material: PEONY
+          amount: 4
+    凋灵玫瑰:
+      seconds: 2
+      input:
+        1:
+          material: WITHER_ROSE
+          amount: 1
+      output:
+        1:
+          material: WITHER_ROSE
+          amount: 4
+    睡莲:
+      seconds: 2
+      input:
+        1:
+          material: LILY_PAD
+          amount: 1
+      output:
+        1:
+          material: LILY_PAD
+          amount: 4
+    藤蔓:
+      seconds: 2
+      input:
+        1:
+          material: VINE
+          amount: 1
+      output:
+        1:
+          material: VINE
+          amount: 4
+    仙人掌:
+      seconds: 2
+      input:
+        1:
+          material: CACTUS
+          amount: 1
+      output:
+        1:
+          material: CACTUS
+          amount: 4
+    蕨:
+      seconds: 2
+      input:
+        1:
+          material: FERN
+          amount: 1
+      output:
+        1:
+          material: FERN
+          amount: 4
+    大型蕨:
+      seconds: 2
+      input:
+        1:
+          material: LARGE_FERN
+          amount: 1
+      output:
+        1:
+          material: LARGE_FERN
+          amount: 4
+    绯红菌:
+      seconds: 2
+      input:
+        1:
+          material: CRIMSON_FUNGUS
+          amount: 1
+      output:
+        1:
+          material: CRIMSON_FUNGUS
+          amount: 4
+    诡异菌:
+      seconds: 2
+      input:
+        1:
+          material: WARPED_FUNGUS
+          amount: 1
+      output:
+        1:
+          material: WARPED_FUNGUS
+          amount: 4
+    垂泪藤:
+      seconds: 2
+      input:
+        1:
+          material: WEEPING_VINES
+          amount: 1
+      output:
+        1:
+          material: WEEPING_VINES
+          amount: 4
+    缠怨藤:
+      seconds: 2
+      input:
+        1:
+          material: TWISTING_VINES
+          amount: 1
+      output:
+        1:
+          material: TWISTING_VINES
+          amount: 4
+    下界苗:
+      seconds: 2
+      input:
+        1:
+          material: NETHER_SPROUTS
+          amount: 1
+      output:
+        1:
+          material: NETHER_SPROUTS
+          amount: 4
+    绯红菌索:
+      seconds: 2
+      input:
+        1:
+          material: CRIMSON_ROOTS
+          amount: 1
+      output:
+        1:
+          material: CRIMSON_ROOTS
+          amount: 4
+    诡异菌索:
+      seconds: 2
+      input:
+        1:
+          material: WARPED_ROOTS
+          amount: 1
+      output:
+        1:
+          material: WARPED_ROOTS
+          amount: 4
+    海泡菜:
+      seconds: 2
+      input:
+        1:
+          material: SEA_PICKLE
+          amount: 1
+      output:
+        1:
+          material: SEA_PICKLE
+          amount: 4
+    蘑菇柄:
+      seconds: 2
+      input:
+        1:
+          material: MUSHROOM_STEM
+          amount: 1
+      output:
+        1:
+          material: MUSHROOM_STEM
+          amount: 4
+    发光地衣:
+      seconds: 2
+      input:
+        1:
+          material: GLOW_LICHEN
+          amount: 1
+      output:
+        1:
+          material: GLOW_LICHEN
+          amount: 4
+    杜鹃花丛:
+      seconds: 2
+      input:
+        1:
+          material: AZALEA
+          amount: 1
+      output:
+        1:
+          material: AZALEA
+          amount: 4
+    盛开的杜鹃花丛:
+      seconds: 2
+      input:
+        1:
+          material: FLOWERING_AZALEA
+          amount: 1
+      output:
+        1:
+          material: FLOWERING_AZALEA
+          amount: 4
+    小型垂滴叶:
+      seconds: 2
+      input:
+        1:
+          material: SMALL_DRIPLEAF
+          amount: 1
+      output:
+        1:
+          material: SMALL_DRIPLEAF
+          amount: 4
+    大型垂滴叶:
+      seconds: 2
+      input:
+        1:
+          material: BIG_DRIPLEAF
+          amount: 1
+      output:
+        1:
+          material: BIG_DRIPLEAF
+          amount: 4
+    垂根:
+      seconds: 2
+      input:
+        1:
+          material: HANGING_ROOTS
+          amount: 1
+      output:
+        1:
+          material: HANGING_ROOTS
+          amount: 4
+    孢子花:
+      seconds: 2
+      input:
+        1:
+          material: SPORE_BLOSSOM
+          amount: 1
+      output:
+        1:
+          material: SPORE_BLOSSOM
+          amount: 4
+    发光浆果:
+      seconds: 2
+      input:
+        1:
+          material: GLOW_BERRIES
+          amount: 1
+      output:
+        1:
+          material: GLOW_BERRIES
+          amount: 4
+    幽匿脉络:
+      seconds: 2
+      input:
+        1:
+          material: SCULK_VEIN
+          amount: 1
+      output:
+        1:
+          material: SCULK_VEIN
+          amount: 4
+    火把花:
+      seconds: 2
+      input:
+        1:
+          material: TORCHFLOWER
+          amount: 1
+      output:
+        1:
+          material: TORCHFLOWER
+          amount: 4
+    火把花种子:
+      seconds: 2
+      input:
+        1:
+          material: TORCHFLOWER_SEEDS
+          amount: 1
+      output:
+        1:
+          material: TORCHFLOWER_SEEDS
+          amount: 4
+    粉红色花簇:
+      seconds: 2
+      input:
+        1:
+          material: PINK_PETALS
+          amount: 1
+      output:
+        1:
+          material: PINK_PETALS
+          amount: 4
+    瓶子草:
+      seconds: 2
+      input:
+        1:
+          material: PITCHER_PLANT
+          amount: 1
+      output:
+        1:
+          material: PITCHER_PLANT
+          amount: 4
+    瓶子草荚果:
+      seconds: 2
+      input:
+        1:
+          material: PITCHER_POD
+          amount: 1
+      output:
+        1:
+          material: PITCHER_POD
+          amount: 4
+    海草:
+      seconds: 2
+      input:
+        1:
+          material: SEAGRASS
+          amount: 1
+      output:
+        1:
+          material: SEAGRASS
+          amount: 4
+    海带:
+      seconds: 2
+      input:
+        1:
+          material: KELP
+          amount: 1
+      output:
+        1:
+          material: KELP
+          amount: 4
+    枯萎的灌木:
+      seconds: 2
+      input:
+        1:
+          material: DEAD_BUSH
+          amount: 1
+      output:
+        1:
+          material: DEAD_BUSH
+          amount: 4
+    棕色蘑菇:
+      seconds: 2
+      input:
+        1:
+          material: BROWN_MUSHROOM
+          amount: 1
+      output:
+        1:
+          material: BROWN_MUSHROOM
+          amount: 4
+    红色蘑菇:
+      seconds: 2
+      input:
+        1:
+          material: RED_MUSHROOM
+          amount: 1
+      output:
+        1:
+          material: RED_MUSHROOM
+          amount: 4
+    下界疣:
+      seconds: 2
+      input:
+        1:
+          material: NETHER_WART
+          amount: 1
+      output:
+        1:
+          material: NETHER_WART
+          amount: 4
+    甘蔗:
+      seconds: 2
+      input:
+        1:
+          material: SUGAR_CANE
+          amount: 1
+      output:
+        1:
+          material: SUGAR_CANE
+          amount: 4
+    胡萝卜:
+      seconds: 2
+      input:
+        1:
+          material: CARROT
+          amount: 1
+      output:
+        1:
+          material: CARROT
+          amount: 4
+    可可豆:
+      seconds: 2
+      input:
+        1:
+          material: COCOA_BEANS
+          amount: 1
+      output:
+        1:
+          material: COCOA_BEANS
+          amount: 4
+    马铃薯:
+      seconds: 2
+      input:
+        1:
+          material: POTATO
+          amount: 1
+      output:
+        1:
+          material: POTATO
+          amount: 4
+    南瓜:
+      seconds: 2
+      input:
+        1:
+          material: PUMPKIN
+          amount: 1
+      output:
+        1:
+          material: PUMPKIN
+          amount: 4
+    南瓜种子:
+      seconds: 2
+      input:
+        1:
+          material: PUMPKIN_SEEDS
+          amount: 1
+      output:
+        1:
+          material: PUMPKIN_SEEDS
+          amount: 4
+    西瓜:
+      seconds: 2
+      input:
+        1:
+          material: MELON
+          amount: 1
+      output:
+        1:
+          material: MELON
+          amount: 4
+    西瓜种子:
+      seconds: 2
+      input:
+        1:
+          material: MELON_SEEDS
+          amount: 1
+      output:
+        1:
+          material: MELON_SEEDS
+          amount: 4
+    小麦:
+      seconds: 2
+      input:
+        1:
+          material: WHEAT
+          amount: 1
+      output:
+        1:
+          material: WHEAT
+          amount: 4
+    小麦种子:
+      seconds: 2
+      input:
+        1:
+          material: WHEAT_SEEDS
+          amount: 1
+      output:
+        1:
+          material: WHEAT_SEEDS
+          amount: 4
+    甜菜根:
+      seconds: 2
+      input:
+        1:
+          material: BEETROOT
+          amount: 1
+      output:
+        1:
+          material: BEETROOT
+          amount: 4
+    甜菜种子:
+      seconds: 2
+      input:
+        1:
+          material: BEETROOT_SEEDS
+          amount: 1
+      output:
+        1:
+          material: BEETROOT_SEEDS
+          amount: 4
+    紫颂花:
+      seconds: 2
+      input:
+        1:
+          material: CHORUS_FLOWER
+          amount: 1
+      output:
+        1:
+          material: CHORUS_FLOWER
+          amount: 4
+    紫颂植株:
+      seconds: 2
+      input:
+        1:
+          material: CHORUS_PLANT
+          amount: 1
+      output:
+        1:
+          material: CHORUS_PLANT
+          amount: 4
+    竹子:
+      seconds: 2
+      input:
+        1:
+          material: bamboo
+          amount: 1
+      output:
+        1:
+          material: bamboo
+          amount: 4
 #----------------------------------简单压缩机列表(初级)------------------------------------ #
 JIANDAN_YA_SUO_QI:
   item_group: meirs_sub_jiqi
@@ -6,6 +717,7 @@ JIANDAN_YA_SUO_QI:
     lore:
       - "{#4b4b4b}>{#82E0AA>}把物品进行压缩{#AED6F1<}{#4b4b4b}<"
       - ""
+      - "{#F8BBD0>}初级 机器{#90CAF9<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}10{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}速度: 1x{#CC0033<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 1{#FF0000<} {#FFFFCC}J"
@@ -33,11 +745,12 @@ JIANDAN_YA_SUO_QI:
       material_type: slimefun
       material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
   capacity: 10
-  input: [ 0,1,2,3,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 ]
+  input: [ 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 ]
   output: [ 36,37,38,39,41,42,43,44,45,46,47,48,50,51,52,53]
   energyPerCraft: 1
   speed: 1
   recipes:
+    #--------------------原石---------------------#
     1重压缩圆石:
       seconds: 1
       input:
@@ -152,6 +865,7 @@ JIANDAN_YA_SUO_QI:
           material_type: slimefun
           material: MEIRS_ITEM_YASUO_YUANSHI_9
           amount: 1
+    #--------------------煤炭---------------------#
     1重压缩煤炭:
       seconds: 1
       input:
@@ -266,6 +980,1146 @@ JIANDAN_YA_SUO_QI:
           material_type: slimefun
           material: MEIRS_ITEM_YASUO_MEITAN_9
           amount: 1
+    #--------------------青金石---------------------#
+    1重压缩青金石:
+      seconds: 1
+      input:
+        1:
+          material: LAPIS_LAZULI
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_1
+    2重压缩青金石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_2
+          amount: 1
+    3重压缩青金石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_3
+          amount: 1
+    4重压缩青金石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_4
+          amount: 1
+    5重压缩青金石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_5
+          amount: 1
+    6重压缩青金石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_6
+          amount: 1
+    7重压缩青金石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_7
+          amount: 1
+    8重压缩青金石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_8
+          amount: 1
+    9重压缩青金石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_QINGJINSHI_9
+          amount: 1
+    #--------------------石英---------------------#
+    1重压缩石英:
+      seconds: 1
+      input:
+        1:
+          material: QUARTZ
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_1
+    2重压缩石英:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_2
+          amount: 1
+    3重压缩石英:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_3
+          amount: 1
+    4重压缩石英:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_4
+          amount: 1
+    5重压缩石英:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_5
+          amount: 1
+    6重压缩石英:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_6
+          amount: 1
+    7重压缩石英:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_7
+          amount: 1
+    8重压缩石英:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_8
+          amount: 1
+    9重压缩石英:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIESHIYING_9
+          amount: 1
+    #--------------------紫水晶---------------------#
+    1重压缩紫水晶:
+      seconds: 1
+      input:
+        1:
+          material: AMETHYST_SHARD
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_1
+    2重压缩紫水晶:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_2
+          amount: 1
+    3重压缩紫水晶:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_3
+          amount: 1
+    4重压缩紫水晶:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_4
+          amount: 1
+    5重压缩紫水晶:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_5
+          amount: 1
+    6重压缩紫水晶:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_6
+          amount: 1
+    7重压缩紫水晶:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_7
+          amount: 1
+    8重压缩紫水晶:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_8
+          amount: 1
+    9重压缩紫水晶:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZISHUIJIN_9
+          amount: 1
+    #--------------------铜锭---------------------#
+    1重压缩铜锭:
+      seconds: 1
+      input:
+        1:
+          material: COPPER_INGOT
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_1
+    2重压缩铜锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_2
+          amount: 1
+    3重压缩铜锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_3
+          amount: 1
+    4重压缩铜锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_4
+          amount: 1
+    5重压缩铜锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_5
+          amount: 1
+    6重压缩铜锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_6
+          amount: 1
+    7重压缩铜锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_7
+          amount: 1
+    8重压缩铜锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_8
+          amount: 1
+    9重压缩铜锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TONGDING_9
+          amount: 1
+    #--------------------铁锭---------------------#
+    1重压缩铁锭:
+      seconds: 1
+      input:
+        1:
+          material: IRON_INGOT
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_1
+    2重压缩铁锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_2
+          amount: 1
+    3重压缩铁锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_3
+          amount: 1
+    4重压缩铁锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_4
+          amount: 1
+    5重压缩铁锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_5
+          amount: 1
+    6重压缩铁锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_6
+          amount: 1
+    7重压缩铁锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_7
+          amount: 1
+    8重压缩铁锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_8
+          amount: 1
+    9重压缩铁锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_TIEDING_9
+          amount: 1
+    #--------------------金锭---------------------#
+    1重压缩金锭:
+      seconds: 1
+      input:
+        1:
+          material: GOLD_INGOT
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_1
+    2重压缩金锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_2
+          amount: 1
+    3重压缩金锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_3
+          amount: 1
+    4重压缩金锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_4
+          amount: 1
+    5重压缩金锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_5
+          amount: 1
+    6重压缩金锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_6
+          amount: 1
+    7重压缩金锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_7
+          amount: 1
+    8重压缩金锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_8
+          amount: 1
+    9重压缩金锭:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_JINDING_9
+          amount: 1
+    #--------------------红石---------------------#
+    1重压缩红石:
+      seconds: 1
+      input:
+        1:
+          material: Redstone
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_1
+    2重压缩红石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_2
+          amount: 1
+    3重压缩红石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_3
+          amount: 1
+    4重压缩红石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_4
+          amount: 1
+    5重压缩红石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_5
+          amount: 1
+    6重压缩红石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_6
+          amount: 1
+    7重压缩红石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_7
+          amount: 1
+    8重压缩红石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_8
+          amount: 1
+    9重压缩红石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_HOGNGSHI_9
+          amount: 1
+    #--------------------钻石---------------------#
+    1重压缩钻石:
+      seconds: 1
+      input:
+        1:
+          material: DIAMOND
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_1
+    2重压缩钻石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_2
+          amount: 1
+    3重压缩钻石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_3
+          amount: 1
+    4重压缩钻石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_4
+          amount: 1
+    5重压缩钻石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_5
+          amount: 1
+    6重压缩钻石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_6
+          amount: 1
+    7重压缩钻石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_7
+          amount: 1
+    8重压缩钻石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_8
+          amount: 1
+    9重压缩钻石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_ZUANSHI_9
+          amount: 1
+    #--------------------绿宝石---------------------#
+    1重压缩绿宝石:
+      seconds: 1
+      input:
+        1:
+          material: emerald
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_1
+    2重压缩绿宝石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_2
+          amount: 1
+    3重压缩绿宝石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_3
+          amount: 1
+    4重压缩绿宝石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_4
+          amount: 1
+    5重压缩绿宝石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_5
+          amount: 1
+    6重压缩绿宝石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_6
+          amount: 1
+    7重压缩绿宝石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_7
+          amount: 1
+    8重压缩绿宝石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_8
+          amount: 1
+    9重压缩绿宝石:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_LVBAOSHI_9
+          amount: 1
+    #--------------------下界合金---------------------#
+    1重压缩下界合金:
+      seconds: 1
+      input:
+        1:
+          material: NETHERITE_INGOT
+          amount: 9
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_1
+    2重压缩下界合金:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_1
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_2
+          amount: 1
+    3重压缩下界合金:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_3
+          amount: 1
+    4重压缩下界合金:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_3
+          amount: 4
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_4
+          amount: 1
+    5重压缩下界合金:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_4
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_5
+          amount: 1
+    6重压缩下界合金:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_5
+          amount: 3
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_6
+          amount: 1
+    7重压缩下界合金:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_6
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_7
+          amount: 1
+    8重压缩下界合金:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_7
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_8
+          amount: 1
+    9重压缩下界合金:
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_8
+          amount: 2
+        #添加更多输入物品。。。
+      output:
+        1:
+          material_type: slimefun
+          material: MEIRS_ITEM_YASUO_XIAJIEHEJINDING_9
+          amount: 1
 #----------------------------------简单工作台列表(初级)------------------------------------ #
 JIANDAN_GONGZUOTAI:
   item_group: meirs_sub_jiqi
@@ -273,9 +2127,10 @@ JIANDAN_GONGZUOTAI:
     name: "{#EF5350>}简单工作台{#EC407A<}"
     lore:
       - "{#4b4b4b}>{#F48FB1>}制作本附属相关的物品{#9575CD<}{#4b4b4b}<"
-      - ""
+      - "{#4b4b4b}>{#EC7063>}注意: 目前无法像普通合成台一样，必须物品合并合成。{#C0392B<}{#4b4b4b}<"
+      - "{#F8BBD0>}初级 机器{#90CAF9<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#E53935>}100{#EF9A9A<} {#FFFFCC}J {#00FF00>}可储存{#66CC00<}"
-      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}速度: 10x{#CC0033<}"
+      - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#66FF33>}速度: 1x{#CC0033<}"
       - "{#4b4b4b}⇨ {#FFFFCC}⚡ {#CCFF33>}生产一次消耗: 10{#FF0000<} {#FFFFCC}J"
       - ""
       - "{#4b4b4b}>>{#f836fc}s{#c54afd}l{#935dfe}i{#6071ff}m{#438aff}e{#3ca9ff}f{#34c7ff}u{#2de6ff}n {#5C6BC0>}简单机器{#9575CD<}{#4b4b4b}({#A9CCE3}机器{#4b4b4b})"
@@ -285,7 +2140,7 @@ JIANDAN_GONGZUOTAI:
     1:
       material_type: slimefun
       material: MEIRS_ITEM_MUTO
-    3:
+    2:
       material_type: slimefun
       material: MEIRS_ITEM_MUTO
     4:
@@ -293,76 +2148,53 @@ JIANDAN_GONGZUOTAI:
       material: MEIRS_ITEM_MUTO
     5:
       material_type: slimefun
-      material: MEIRS_SHENG_CHAN_MOKUAI_1
-    6:
-      material_type: slimefun
       material: MEIRS_ITEM_MUTO
   capacity: 100
   input: [10,11,12,19,20,21,28,29,30]
   output: [14,15,16,23,24,25,32,33,34]
   energyPerCraft: 10
-  speed: 10
+  speed: 1
   recipes:
     圆石生产机I:
-      seconds: 10
+      seconds: 15
       input:
         1:
           material: COBBLESTONE
-          amount: 1
+          amount: 4
         2:
           material_type: slimefun
           material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
-          amount: 1
+          amount: 2
         3:
-          material: COBBLESTONE
-          amount: 1
+          material_type: slimefun
+          material: MEIRS_SHENG_CHAN_MOKUAI_1
+          amount: 2
         4:
           material_type: slimefun
-          material: MEIRS_SHENG_CHAN_MOKUAI_1
-          amount: 1
-        5:
-          material_type: slimefun
           material: MEIRS_ITEM_KUANG_JIA_1
-          amount: 1
-        6:
-          material_type: slimefun
-          material: MEIRS_SHENG_CHAN_MOKUAI_1
-          amount: 1
-        7:
-          material: COBBLESTONE
-          amount: 1
-        8:
-          material_type: slimefun
-          material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
-          amount: 1
-        9:
-          material: COBBLESTONE
           amount: 1
       output:
         1:
           material_type: slimefun
           material: MEIRS_MATERIAL_GENERATOR_1
-    2:
-      seconds: 10
+          amount: 1
+    压缩机:
+      seconds: 15
       input:
         1:
           material_type: slimefun
           material: MEIRS_ITEM_MUTO
+          amount: 2
         2:
           material_type: slimefun
           material: MEIRS_SHENG_CHAN_MOKUAI_1
         3:
           material_type: slimefun
-          material: MEIRS_ITEM_MUTO
+          material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
+          amount: 2
         4:
           material_type: slimefun
-          material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
-        5:
-          material_type: slimefun
           material: MEIRS_ITEM_KUANG_JIA_1
-        6:
-          material_type: slimefun
-          material: MEIRS_DIAN_NENGCHUCUNMOKUAI_1
       output:
         1:
           material_type: slimefun

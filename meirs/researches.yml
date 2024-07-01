@@ -1,0 +1,6 @@
+rsc_meirs_lvbaoshi_research:
+  id: 123
+  name: "&a绿宝石生产器"
+  levelCost: 1
+  items:
+    - MEIRS_LVBAOSHI_SHENGCANJIQI_1
